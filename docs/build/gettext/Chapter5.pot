@@ -1,0 +1,951 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Building Energy Studio
+# This file is distributed under the same license as the Continuous Commissioning package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Continuous Commissioning \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 13:54+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/Chapter5.rst:2
+# 1b84b77e2f6a40668b5506292b1b787a
+msgid "Ch 5: CC Measures for Water/Steam Distribution Systems"
+msgstr ""
+
+#: ../../source/Chapter5.rst:4
+# 639a74404c684716ab45257106ec6a11
+msgid "Distribution systems include central chilled water and hot water/steam systems, that deliver thermal energy from central plants to buildings. In turn, the system distributes the chilled water and hot water or steam to AHU coils and terminal boxes. Distribution systems consist mainly of pumps, pipes, control valves and variable speed pumping devices."
+msgstr ""
+
+#: ../../source/Chapter5.rst:None
+#: ../../source/Chapter5.rst:None
+# b50835f9ce184cb9b977a21e9475348c
+# 9c1ff6da3e4540db998fa0aaa2223c4e
+msgid "**Notes**"
+msgstr ""
+
+#: ../../source/Chapter5.rst:8
+# faba15afe2f2411882761c3359ad4a56
+msgid "Distribution systems consist mainly of pumps, pipes, control valves and variable speed pumping devices."
+msgstr ""
+
+#: ../../source/Chapter5.rst:11
+# f66f61cdf76a4cf895fe43f68a2372f6
+msgid "A central chiller plant could have primary and secondary loops. The primary pumps are only used to circulate water through the chillers. The secondary pumps are used to distribute water to the buildings. The distribution systems can be categorized as source-distributed and distributed systems. The source-distributed system has secondary pumps located only in the central plant. The distributed pumping system has pumps located in the buildings but with no secondary pumps. Most central plants are not pure source-distributed nor pure distributed systems. Most have all three types of pumps: primary, secondary, and building pumps."
+msgstr ""
+
+#: ../../source/Chapter5.rst:18
+# e1cccb13c0204cbf96114e2b32f07502
+msgid "Figure 5-1. Schematic Diagrams of Source Distributed Pumping (on left) and Distributed Pumping Configurations"
+msgstr ""
+
+#: ../../source/Chapter5.rst:20
+# dcf47285c2cc42c1856c65e1a6d9202f
+msgid "This chapter focuses on the CCSM measures for optimal pressure control, water flow control, and general optimization. The supply temperature and steam optimization measures are covered in Chapters 6 and 7."
+msgstr ""
+
+#: ../../source/Chapter5.rst:23
+# 5097c05827b84781a016f808f03f909c
+msgid "5.1 Improve Building Chilled Water Pump Operation"
+msgstr ""
+
+#: ../../source/Chapter5.rst:25
+# afe8642d1d11498ba95f7f7ed8c460f7
+msgid "Most building chilled water pumping systems are equipped with variable speed devices (VSDs). If a VSD is not installed, retrofit of a VSD is generally recommended. The discussion here is limited to systems where a VSD is installed. The goal of pumping optimization is to avoid excessive differential pressures across the control valves while providing enough water to each building, coil, or other end use1. Optimal pump operation schedule should be developed using the following procedure:"
+msgstr ""
+
+#: ../../source/Chapter5.rst:27
+# 07451a20cbe54073880976d1316e06cb
+msgid "Inspect each heating and cooling coil. Identify all three-way valves. Convert three-way valves into two-way valves by closing the manual valves on the bypass line. If necessary, cut the bypass line. In rare cases, the three-way valves may hydraulically lock if the bypass is fully closed. In these cases, the three- way valves must be replaced."
+msgstr ""
+
+#: ../../source/Chapter5.rst:31
+# 35c372460852405585af76e95ab754f4
+msgid "Inspect the building entrance. Disable any blending station that allows return water to blend with primary water from the central plant using manual valves or by closing off the bypass line. Note that if the chiller plant provides chilled water to only one building, the primary/secondary loops may be converted into a single loop. Single-loop operation or conversion is discussed later in this chapter."
+msgstr ""
+
+#: ../../source/Chapter5.rst:37
+# 0defd6190ff24e4ea8d211674bde43da
+msgid "Identify the coil which calls for the highest differential pressure to deliver the required flow. Open all manual valves between this coil and the building pump. Check the coil supply air temperature set point. If the set point is lower than the design value, reset it back to the normal value."
+msgstr ""
+
+#: ../../source/Chapter5.rst:41
+# 5bf0e22e21d144acbef578b5f98c5d49
+msgid "Slow the pump down until the control valve at the coil is 85% open. After the system is stabilized, measure the differential pressure (ΔP1) at the loop sensor position and the chilled water flow rate. The differential pressure (ΔP1) is the optimal set point (ΔPo) under the measured flow condition."
+msgstr ""
+
+#: ../../source/Chapter5.rst:45
+# 29c10531a56d46c186fffa023b9934ce
+msgid "If step 4 cannot be performed, measure the differential pressure across the coil (ΔP2), including the valve, the differential pressure (ΔP1) at the loop sensor, and the chilled water flow rate (Go). Determine the set point of the optimal loop pressure as:"
+msgstr ""
+
+#: ../../source/Chapter5.rst:50
+# 60bb623169ef4162bb4cd4e9278a6be8
+msgid "\\Delta P_0 = \\Delta P_1 - \\Delta P_2 + C"
+msgstr ""
+
+#: ../../source/Chapter5.rst:54
+# 2b031f086a584249b68be2be3d666b8c
+msgid "The constant C is the differential pressure required by the coil. It typically varies from 1 to 5 psi depending on the size of the coil. However, exceptions are possible. If a value above this range is detected, compare it with the design value. If it is higher than the design value, the coil may be blocked. Cleaning or repair may be required."
+msgstr ""
+
+#: ../../source/Chapter5.rst:60
+# c75ea54b986f418aab6576ccf3a8c4a6
+msgid "If the differential pressure sensor is located at the most remote coil, control the VSD to maintain the set point"
+msgstr ""
+
+#: ../../source/Chapter5.rst:62
+# 497ab360e1304dbbbf80d71b596123fb
+msgid "If the differential pressure sensor is not located at the most remote coil, reset the differential pressure set point using measured chilled water flow rate. The reset schedule may not apply to extremely low flow conditions. A low limit is often necessary. Generally, the set point should not be lower than 5 psi. A high limit is also recommended in case the flow meter malfunctions. The high limit should be calculated by introducing the design flow for G in the equation for ΔP."
+msgstr ""
+
+#: ../../source/Chapter5.rst:70
+# a67e23d788864369832f020556d0a3af
+msgid "\\Delta P = \\Delta P_0 \\left( \\frac{G}{G_0} \\right) ^2 + 2"
+msgstr ""
+
+#: ../../source/Chapter5.rst:74
+# 7a3661d7c7984640868c3970742168c2
+msgid "Turn off the building pump(s) if the primary/secondary loop provides enough differential pressure to the building."
+msgstr ""
+
+#: ../../source/Chapter5.rst:77
+# a04a8ef4ef424b188c0f85dada1956f5
+msgid "If the chilled water flow is not measured, the differential pressure can be reset based on the VSD speed as:"
+msgstr ""
+
+#: ../../source/Chapter5.rst:80
+# 23d196e720da45cfa813563753a34e05
+msgid "\\Delta P = \\Delta P_0 \\left( \\frac{VSD}{VSD_0} \\right) ^2 + 2"
+msgstr ""
+
+#: ../../source/Chapter5.rst:84
+# 5c1901c31fe646a0a7bc956719cb20e2
+msgid "where VSD0 is the VSD speed when ΔP0 is determined."
+msgstr ""
+
+#: ../../source/Chapter5.rst:86
+# a0ebb584c8ae428d910c0334e570a20d
+msgid "Implementat the optimal reset schedule using the BAS. After initial implementation, hot complaints may occur due to existing mechanical problems or incorrect manual valve positions. When a hot call is received, check the appropriate coil. Special attention should be given to balance valve positions and any other valve position in that branch. Take action to properly balance the system. If the problem persists, check the coil and its valves to identify any mechanical problems and repair. If this does not solve the problem, this coil should be used as the most remote coil."
+msgstr ""
+
+#: ../../source/Chapter5.rst:95
+# d213493fc17d4f3a8d649bfae5811c0d
+msgid "More information can be found in “A Simple and Quick Chilled Water Loop Balancing for Variable Flow Systems” [Zhu et al. 2000], and “System Optimization Saves $195,000/yr in a New Medical Facility” [Liu et al. 1998]."
+msgstr ""
+
+#: ../../source/Chapter5.rst:97
+#: ../../source/Chapter5.rst:274
+#: ../../source/Chapter5.rst:350
+#: ../../source/Chapter5.rst:445
+# 51deaaeec4ac48c7969473ee84f9e499
+# 3e0a4710b11d4e91a08db184b33e1fa7
+# 4010358748fb401c8f5f9e3a185d9bfb
+# 02b16a62a835458fae3f56ae6d3d86a5
+msgid "EXAMPLE:"
+msgstr ""
+
+#: ../../source/Chapter5.rst:99
+# 4b1da4441d67488f98150b4695e818ef
+msgid "The G. R. White Annex is part of the G. R. White Coliseum on the Texas A&M University Campus in College Station. The total conditioned space is 177,838 square feet, which includes classrooms, offices and gym areas. Two chilled water pumps (40 hp. each) are installed to circulate water in the building. A VFD is installed on the lead pump with the other pump as a standby pump. The differential pressure sensor is installed at the entrance of the building loop."
+msgstr ""
+
+#: ../../source/Chapter5.rst:101
+# ca70d9f0e9d24613967fef4cd3a9ce05
+msgid "The original differential pressure set point varied from 15 psi to 54 psi as the chilled water flow varied from 50% to 100% of design flow. During most of the year, this schedule caused the pump to run at full speed."
+msgstr ""
+
+#: ../../source/Chapter5.rst:103
+# 4a62713a1e5349d590a7be5bd44f1e24
+msgid "A test was conducted. The measured optimal set point was 10 psi when the chilled water flow was 275 gpm. The optimal reset schedule was then constructed as:"
+msgstr ""
+
+#: ../../source/Chapter5.rst:105
+# 07a12e92820f4ff9ae2b0262a6ea70bf
+msgid "\\Delta P = 10 \\left( \\frac{G}{275} \\right)  + 2"
+msgstr ""
+
+#: ../../source/Chapter5.rst:109
+# 3e2fbc3ebc9b4e6486bace7b2ed97d02
+msgid "The minimum limit was set as 5 psi. The high limit was set at 15 psi. Figure 5-2 compares the measured chilled water flow rate before and after the implementation of the optimal reset schedule."
+msgstr ""
+
+#: ../../source/Chapter5.rst:116
+# f0fbc1955f7d4376918458466289a3c4
+msgid "Figure 5-2. Comparison of Measured Chilled Water Flow Under Both Initial and Optimal Differential Pressure Reset Schedules"
+msgstr ""
+
+#: ../../source/Chapter5.rst:119
+# 4c51d3ba30a14d2eac8d960f89b8a7d9
+msgid "Under the initial schedule, the pump was running at full speed. Under the new schedule, all control valves can function properly. The chilled water flow was reduced by 50% and building comfort was still maintained. The optimal schedule decreased pump power by 20 kW based on a one-time measurement."
+msgstr ""
+
+#: ../../source/Chapter5.rst:121
+# a013a0f34c0c4a15a444135dd4ade1d3
+msgid "After implementing the optimal chilled water loop differential reset schedule, the supply air temperature was maintained at the set point. Cold complaints were significantly reduced and simultaneous heating and cooling decreased. Figure 5-3 compares the measured hourly cooling energy consumption under both the original and optimal chilled water differential reset schedules. Under the same temperature conditions, the chilled water consumption was approximately 250 kBtu/hr lower under the optimal schedule. This translated into 2,000 MMBtu/yr chilled water energy savings. If the building comfort is maintained at the same level, the same amount of heating energy savings should be obtained. The annual energy cost savings were estimated to be $28,760/yr. This includes $8,760 for pump power, $10,000 for chilled water, and $10,000 for hot water based on energy prices of $0.05/kWh, and $5/MMBtu for hot water and chilled water."
+msgstr ""
+
+#: ../../source/Chapter5.rst:123
+# b0a61b7eef054d42b6f9f6ad6e362165
+msgid "The pump control may also be improved by controlling the pressure so that at least one control valve is at least 85% open (adjustable). If none of the control valves are at least 85% open, slow down the pump and vice versa. This method requires special attention to all control valves. A single malfunctioning valve may cause the pump to run at full speed. Generally speaking, this method should be integrated with the pressure reset schedule. If the actual differential pressure approaches the set point and one control valve is still fully open, it often indicates a problem associated with the valve or the coil controlled by the valve."
+msgstr ""
+
+#: ../../source/Chapter5.rst:129
+# 0ac41a8da6a3469a8c07e5b0cf137c68
+msgid "Figure 5-3. Comparison of Chilled Water Energy Consumption Under Original and Optimal Chilled Water Differential Pressure Schedules"
+msgstr ""
+
+#: ../../source/Chapter5.rst:132
+# b61f7a2564514b6ea9f4416aaa2def03
+msgid "5.2 Improve Secondary Loop Operation"
+msgstr ""
+
+#: ../../source/Chapter5.rst:133
+# d416f99c8f2b419aa5e4e343dd9f4cb1
+msgid "The building loop optimization should be performed before the secondary loop optimization."
+msgstr ""
+
+#: ../../source/Chapter5.rst:136
+# be3a12fed2a94a19ae7be6ff783b4f0f
+msgid "5.2.1 Source Distributed Systems"
+msgstr ""
+
+#: ../../source/Chapter5.rst:138
+# 6faa08cf015a4119af499598f9eff934
+msgid "If there are no building pumps, the secondary pumps must provide the pressure head required to overcome both the secondary loop and the building loop pressure losses. In this case, the secondary loop is called a source distributed system. The secondary loop pumps should be controlled to provide enough pressure head for the most remote coil. If VFDs are installed, the differential pressure can be controlled by modulating pump speed. Otherwise, the differential can be modulated by changing the number of pumps in operation."
+msgstr ""
+
+#: ../../source/Chapter5.rst:142
+# f41845654f454465987f62092398a05f
+msgid "Installing building pumps can decrease total pumping power by as much as 50%."
+msgstr ""
+
+#: ../../source/Chapter5.rst:144
+# 7eb63552b2454aaa84a5736ddfaa557e
+msgid "The source-distributed system is the least efficient distribution system. Installing building pumps can decrease total pumping power by as much as 50% when the pumps are controlled and operated properly. The source distributed system will often have water balance problems because it over-pressurizes the control valves of the buildings nearest to the central plant. Due to excessive water flow through these buildings, often the remote buildings do not receive enough water. Alternatively, the distribution pump at the central plant must pump extra water. It is recommended that building pumps be installed for relatively large complexes with several buildings."
+msgstr ""
+
+#: ../../source/Chapter5.rst:147
+# 8f436b8b8a5a4bff8ef42b3d903080bc
+msgid "5.2.2 Source Distributed Systems With Building Pumps"
+msgstr ""
+
+#: ../../source/Chapter5.rst:149
+# b3d41112197749d4ad94089bc5682582
+msgid "In most campus settings, both secondary distribution and building pumps are installed. The optimal differential pressure set point should be determined using the following procedure:"
+msgstr ""
+
+#: ../../source/Chapter5.rst:151
+# ad3068b36096492f9c08f6df0f4dc478
+msgid "Inspect major buildings and solve any major water balance problems."
+msgstr ""
+
+#: ../../source/Chapter5.rst:152
+# 5a5dee60f9d749bb9368363971301f30
+msgid "Identify the most remote building. Inspect the building and identify any control and mechanical problems in the major AHUs. Fix major mechanical and control problems for the cooling coils."
+msgstr ""
+
+#: ../../source/Chapter5.rst:155
+# 37b07c4f4c784ea582c6729822e77307
+msgid "Modulate the secondary loop pump until the building pump in the most remote building runs at full speed while maintaining building comfort. Record the secondary chilled water flow rate (Go), and loop differential pressures (ΔPpo) at the central plant (ΔP at the sensor location) and the remote user entrance (ΔPbo). Measure the pump head (Hp). If the secondary loop ΔP sensor is located at the entrance of the most remote building, ΔPp should be reset based on the measured loop flow rate using the following formula:"
+msgstr ""
+
+#: ../../source/Chapter5.rst:163
+# e086bf12e7174511a2c46a45423bd9a4
+msgid "\\Delta P_p = \\left( H_p + \\Delta P_{b0} \\right) \\left( \\frac{G}{G_0} \\right) ^2 - H_p + 2"
+msgstr ""
+
+#: ../../source/Chapter5.rst:167
+# 386b64c95cc8464ebd00797503059b34
+msgid "If the secondary loop ΔP sensor is located at the central plant, ΔPp should be reset based on the measured loop flow rate using the following formula:"
+msgstr ""
+
+#: ../../source/Chapter5.rst:170
+# 79ced101ebc142099b2e30dae3f2cdff
+msgid "\\Delta P_p = \\left( H_p + \\Delta P_{p0} \\right) \\left( \\frac{G}{G_0} \\right) ^2 - H_p + 2"
+msgstr ""
+
+#: ../../source/Chapter5.rst:175
+#: ../../source/Chapter5.rst:205
+# c3e36c39b45b4a47a5d3bee5bcb80ff6
+# b4ba1bf74a074f05952468c36df98c3a
+msgid "A maximum limit should be imposed on the reset schedule."
+msgstr ""
+
+#: ../../source/Chapter5.rst:177
+# 39bafa1bf6744b80bad7a0169af0ee29
+msgid "If secondary pumps cannot be adjusted during the test, follow the procedure below:"
+msgstr ""
+
+#: ../../source/Chapter5.rst:180
+# 2c066e9c794c4fdc9f842afa08441ca7
+msgid "Select a manual valve in the main chilled water loop of the building"
+msgstr ""
+
+#: ../../source/Chapter5.rst:181
+# 8c5c06007ba548a493c3e6faad4b06ae
+msgid "Adjust the valve until the building pump runs at full speed and the maximum opened chilled water control valve is 85% open"
+msgstr ""
+
+#: ../../source/Chapter5.rst:183
+# 9e0ef25c0e8c4fcaa1a5c4d930806abc
+msgid "Record the secondary chilled water flow rate (Go), loop differential pressure (ΔPpo) at the central plant (ΔP at the sensor location) and the most remote building entrance (ΔPbo). Measure the pump head (Hp). Record the pressure loss across the manual valve (ΔPl)."
+msgstr ""
+
+#: ../../source/Chapter5.rst:187
+# f7645756f02e4d6b8c4958b6cf55d153
+msgid "If the secondary loop ΔP sensor is located at the entrance of the most remote building, the ΔPp should be reset based on the measured loop flow rate using the following formula:"
+msgstr ""
+
+#: ../../source/Chapter5.rst:191
+# 87da5de61f8d483c93e0af68fb752431
+msgid "\\Delta P_p = \\left( H_p + \\Delta P_{b0} \\right) \\left( \\frac{G}{G_0} \\right) ^2 - H_p - \\Delta P_l + 2"
+msgstr ""
+
+#: ../../source/Chapter5.rst:196
+# f77b71e7a9ff45c9bbc5a019f48a093b
+msgid "If the secondary loop ΔP sensor is located at the central plant, the ΔPp should be reset based on measured loop flow rate using the following formula:"
+msgstr ""
+
+#: ../../source/Chapter5.rst:200
+# 414d7e969f35475abf5da86e7ab659c8
+msgid "\\Delta P_p = \\left( H_p + \\Delta P_{p0} \\right) \\left( \\frac{G}{G_0} \\right) ^2 - H_p - \\Delta P_l + 2"
+msgstr ""
+
+#: ../../source/Chapter5.rst:207
+# cfe2740e54f6483580e7f6fb617d7efa
+msgid "The optimal reset schedule can be easily implemented using the BAS. After initial implementation, hot calls may occur due to existing mechanical problems or incorrect manual valve positions. When a hot call is received, check the building controls and mechanical systems. Special attention should be given to balance valve positions and any other valve position in the branch. Take action promptly to balance the system. If the problem persists, check the building to identify mechanical problems and repair. If this does not solve the problem, this building should be treated as the most remote building."
+msgstr ""
+
+#: ../../source/Chapter5.rst:215
+# cbba558557704bc788789f8c2e497628
+msgid "Turn off building pumps where the secondary pump provides enough pressure difference to the building loop"
+msgstr ""
+
+#: ../../source/Chapter5.rst:218
+# 447695d5bfb34815b825ad02374e87d9
+msgid "The advantages of optimizing the secondary loop control can be demonstrated best using the simplified example below. Consider the simplified loop shown in Figure 5-4. We assume that the secondary loop has a pressure drop of 5 psi between the plant and the first building, as well as between each successive building. The pressure drops on the return side of the loop are the same as in the supply side of the loop. A building pump is available in each building and flow through each building is 1000 gpm. Assume that each building loop has a 10 psi pressure drop. We want to find the loop pressure that meets these flow requirements and minimizes the combined building and loop pumping power."
+msgstr ""
+
+#: ../../source/Chapter5.rst:224
+# 7dc5198ffb4e4f8684eec3e2d90b3272
+msgid "Figure 5-4. Loop and Building Flows and Pressure Drops for Example Problem"
+msgstr ""
+
+#: ../../source/Chapter5.rst:227
+# b5784eceaa5e4d9db0445db6df5610ad
+msgid "We first consider source distributed pumping where the secondary loop pumps provide all the pumping power for the loop and the buildings as shown in Figure 5-5. This figure shows the differential pressure distribution throughout the loop. We see that 10 psi will be needed for the last building. We also assume 10 psi at the return to meet NPSH requirements for the secondary pump. In a real system, the static pressure will satisfy the positive pressure in the entire system. We note that the excess differential pressure for each of the first three buildings, 30 psi to 10 psi, must be dropped across valves in the buildings."
+msgstr ""
+
+#: ../../source/Chapter5.rst:233
+# 9475c6fc3295421ca9803c17b5fc04e9
+msgid "Figure 5-5. Differential Pressure Distribution for Source Distributed Pumping"
+msgstr ""
+
+#: ../../source/Chapter5.rst:235
+# 0bfd68d195114091a677de7d152f927c
+msgid "The pump power depends on flow rate, pump head and pump efficiency:"
+msgstr ""
+
+#: ../../source/Chapter5.rst:237
+# 88194ed2a8f0457dab3250db1c1b3524
+msgid "Ppump = VΔP/η"
+msgstr ""
+
+#: ../../source/Chapter5.rst:239
+# a30b02d7cc304561b85834eb8e45843a
+msgid "where V is the volumetric flow rate, ΔP is the differential pressure drop, and η is the pump efficiency. This equation gives the answer in ft-lbf/s, so we will use the equation"
+msgstr ""
+
+#: ../../source/Chapter5.rst:241
+# cfb6a7e42b0941f48936e8f04e225220
+msgid "Ppump = 0.000597GΔP/η"
+msgstr ""
+
+#: ../../source/Chapter5.rst:243
+# 58feece286dd4b6b88938e1bdfa19358
+msgid "where now G is in gpm, ΔP is in psi and the answer is in hp."
+msgstr ""
+
+#: ../../source/Chapter5.rst:245
+# 0ffd279a63b443f797a847f2af540e46
+msgid "For source distributed pumping, if we have a pump efficiency of 0.83, we get:"
+msgstr ""
+
+#: ../../source/Chapter5.rst:247
+# 78c1b94089cf44188c5dbc13a2909841
+msgid "Ppump = 0.000597*4*1000gpm*50 psi/0.83 = 144 hp."
+msgstr ""
+
+#: ../../source/Chapter5.rst:249
+# c48a7298ce4041969d3a32f8ecd27804
+msgid "If we use the combination of source and distributed pumping shown in Figure 5-6, we note that we now have 20 psi differential pressure across the secondary pump that still pumps 4000 gpm. The first building obtains its pumping power from the secondary loop. Therefore, the building pump is off. The second building has a flow of 1000 gpm pumped across 10 psi, the third building has 1000 gpm pumped across 20 psi and the fourth building has 1000 gpm pumped across 30 psi. Hence we obtain:"
+msgstr ""
+
+#: ../../source/Chapter5.rst:251
+# 53c04dcb355d48d2bc13995ad105abfc
+msgid "Ppump = 0.000597*[4000gpm*20 psi+1000 gpm*(10 psi + 20 psi + 30 psi)]/0.83 = 101 hp."
+msgstr ""
+
+#: ../../source/Chapter5.rst:254
+# 17f2c3704bc6442f8c1d4af68ebeb5de
+msgid "If we evaluate the pumping power required for all possible combinations ranging from source pumping to distributed pumping for this system, we arrive at the plot shown in Figure 5-7."
+msgstr ""
+
+#: ../../source/Chapter5.rst:256
+# 153498e6d1274c4f895bb07ca673fae5
+msgid "Here we see that, for this system, pure distributed pumping or a combination of source and distributed pumping provides a loop pump head of up to 20 psi and building pumping in three or four of the buildings. All have the same pumping power requirements. The pumping power then increases as the loop pump head is increased to reach a maximum value for pure source pumping. The savings of the optimum combinations are (144-101)/144*100 = 30%."
+msgstr ""
+
+#: ../../source/Chapter5.rst:263
+# 6d23dcbd4a134f1ba0948cfb281e7e48
+msgid "Figure 5-6. Differential Pressure Distribution for the Evaluation of Combined Source and Distributed Pumping"
+msgstr ""
+
+#: ../../source/Chapter5.rst:271
+# 1dab6406e46f4ced983ed9ad3c2ec793
+msgid "Figure 5-7. Pumping Power as a Function of Loop Pump Head for the System Considered in the Example"
+msgstr ""
+
+#: ../../source/Chapter5.rst:276
+# 9262eb0f5695447b8e72da749f3643ca
+msgid "The main campus of Texas A&M has 107 buildings. The central heating plant, located at the north end of the main campus, distributes heating water through two loops to all buildings using three distribution pumps with a total capacity of 1025 hp. The longest branch of the loop is 0.53 miles (2,800 feet). Building pumps are installed in each building and most buildings have standby pumps. Excluding the standby pumps, the building pumps have a total capacity of 947.5 hp. VFDs are installed in 21 buildings that have a total heating pump capacity of 214.5 hp."
+msgstr ""
+
+#: ../../source/Chapter5.rst:278
+# 5604f118de2b4ff9bfa50319620602e3
+msgid "Before optimizing the heating loop operations, all building heating pumps operated continuously. The central plant maintained differential pressure within a range of 50 psi to 60 psi using manual control (changing the number of pumps in operation). The heating water temperature was set at 180 °F."
+msgstr ""
+
+#: ../../source/Chapter5.rst:280
+# 453ec0634ee747f79ae0aba2f380e7ec
+msgid "In the winter of 1996-1997, optimization of the heating loop was conducted. The main activities are summarized below:"
+msgstr ""
+
+#: ../../source/Chapter5.rst:282
+# 5141bdf00ad643fe8dc41751805331ab
+msgid "All three-way valves and blending stations were closed. Blending stations were used in 106 buildings. 86 blending stations were disabled using manual valves. 20 blending stations were disabled by blocking the bypass lines. Most three-way valves at AHUs were converted into two-way valves by closing the manual valves on the bypass lines."
+msgstr ""
+
+#: ../../source/Chapter5.rst:287
+# add7db029d1c4fc58b9df4dd3af277ba
+msgid "A large pump was installed in the most remote building, the Commons Dining Hall. The Commons Dining Hall is located at the very end of the heating water loop. The building used a pump with a 30 hp. motor. However, its pump head is less than 10 psi since its impeller was trimmed some years earlier. No records were found as to when or why the impeller was trimmed. Engineering calculations showed that a 30 psi pump head for this building would align it with adjacent buildings and provide the best overall loop performance. To correct the problems, a new 10 hp. pump was installed."
+msgstr ""
+
+#: ../../source/Chapter5.rst:295
+# 2d66c1cdebf64d53b6d7e7701351d2e8
+msgid "The loop differential pressure was reset from 30 psi to 40 psi as a linear function of the ambient temperature as it varies from 100°F to 30°F. The operating staff preferred to use ambient temperature instead of flow rate as the basis for resetting the hot water loop differential pressure because of control system limitations and other factors."
+msgstr ""
+
+#: ../../source/Chapter5.rst:300
+# b9283240dc854f4b8320a55d9d5b20c9
+msgid "The hot water temperature was reset from 180°F to 140°F. Since most buildings were using blending stations, 140°F temperatures can satisfy the requirement of most buildings. Minor system commissioning was conducted in a few buildings, such as the Chemistry building, to resolve existing building problems and reduce the required hot water temperature to 140°F."
+msgstr ""
+
+#: ../../source/Chapter5.rst:305
+# b51947136b804c229e67c55a5cf3fb9e
+msgid "The building heating water pumps in 60 buildings were turned off, resulting in a total 400 hp. reduction in capacity"
+msgstr ""
+
+#: ../../source/Chapter5.rst:308
+# 504bc9e0cf4a4f85adc76d672a61842b
+msgid "Figure 5-8 presents a schematic of the campus heating water distribution diagram. Pumps in buildings shaded with gray have been turned off permanently. This results in pump power savings of 400 hp. Due to the reduced differential pressure set point, the central plant runs one pump less than under the original schedule. This results in additional pump power savings of 300 hp. The total pump power savings are approximately 700 hp., or 35%, of the original total pumping power (1972 hp.). Since the heating systems run 24 hours per day, the annualized energy savings are estimated to be 4,500 MWh. The potential cost savings are $225,000/yr at an average electricity cost of $0.05/kWh."
+msgstr ""
+
+#: ../../source/Chapter5.rst:310
+# 263824041eb3420995e3b29ae377a51b
+msgid "The reduced loop differential pressure reduced hot calls significantly in the buildings nearest the central plant. Under the original schedules, the building heating water loop experienced excessive pressure differences and the heating water control valves were not able to function properly. Consequently, the room temperatures were not properly maintained and excessive thermal energy was used. More information about this case study can be found in “Reducing Pump Power Consumption by (1000 kW) 40% Through Improved Pump Management in a Central Plant” [Deng et al. 1998]."
+msgstr ""
+
+#: ../../source/Chapter5.rst:316
+# e45c821df377406a8eb6ee6d1dba472b
+msgid "Figure 5-8. Schematic Diagram of Central Heating System on the Texas A&M University Main Campus in College Station"
+msgstr ""
+
+#: ../../source/Chapter5.rst:319
+# 1b51247ea6de4b9d87d1173018e40d3e
+msgid "5.3 Improving Central Plant Water Loop Operation"
+msgstr ""
+
+#: ../../source/Chapter5.rst:321
+# 2e88fe07c03242f78490200f4c11a605
+msgid "The central plant loop optimization should be performed after secondary loop optimization."
+msgstr ""
+
+#: ../../source/Chapter5.rst:324
+# 5c55e9238a4944f8b2e756a635d0913e
+msgid "5.3.1 Single Loop Systems"
+msgstr ""
+
+#: ../../source/Chapter5.rst:326
+# 801eb3c070a44e478cf11a7b9377590f
+msgid "For most heating distribution systems and some chilled water systems, a single loop is used instead of primary and secondary systems. Under partial load conditions, fewer pumps can be used for both chillers and heat exchangers. This can result in less pump power consumption. The following procedures should be followed to optimize the system operation:"
+msgstr ""
+
+#: ../../source/Chapter5.rst:329
+# 7dc91c017d8b4bf0a2dc6fdd851013fe
+msgid "Balance chiller or heat exchanger loops to maintain the same ratio of flow through each chiller or heat exchanger. Ensure that all manual valves are fully open in at least one branch. This minimizes the loop pressure loss to save pump power."
+msgstr ""
+
+#: ../../source/Chapter5.rst:333
+# 66dd873bf1ab4e0b8f14cf5658e0a61c
+msgid "Adjust the flow switch on the chiller. Ensure that the switch sends a flow signal to the chiller control if the flow is higher than the minimum flow. Typically, the flow switch is set at the design flow rate. This can be decreased to 30% of the design flow rate for most chillers without causing any damage. The chiller manufacturer should be consulted for verification of the low flow setting."
+msgstr ""
+
+#: ../../source/Chapter5.rst:338
+# e9cf27cd63154fe5a88bf1a94b7a45ab
+msgid "Under partial load conditions, match the pump flow rate to the entire chiller plant load ratio. For example, assume a central chiller plant has four chillers with a total capacity of 4,000 tons. If the load is 2,000 tons, two pumps and three chillers should be turned on. Each chiller operates at its most efficient load ratio of 67%. Each pump has a load ratio of 100%."
+msgstr ""
+
+#: ../../source/Chapter5.rst:343
+# 93950f62ffb8421a8760fd016f460ddf
+msgid "Adjust the automatic control valve (isolation or shut off valve) cycle time to at least 60 seconds if old chillers (5 years or older) are used"
+msgstr ""
+
+#: ../../source/Chapter5.rst:345
+# 541bf01783494aca864a8feacd0a8cad
+msgid "Verify that the pump will not overload. Find the current working point on the pump curve and identify future working points or ranges. Ensure that the pump brake hp. will not exceed the pump motor capacity."
+msgstr ""
+
+#: ../../source/Chapter5.rst:352
+# b11878dd253a4557ad441cbe304b295e
+msgid "The Materials Research Institute (MRI) building, located in State College, PA, has a total floor area of 50,000 square feet including offices, classrooms, laboratories and a clean room facility."
+msgstr ""
+
+#: ../../source/Chapter5.rst:354
+# 0637ab00d752476aa7cc13cfb07c52ba
+msgid "Figure 5-9 presents a schematic diagram of the central plant chiller system. Two 285-ton York chillers are installed in parallel. The design chilled water flow rate is 570 gpm. The chilled water pumps are 25 hp. each with a design pump head of 100 feet of water column and a flow of 695 gpm. This is 22% higher than the rated chiller flow."
+msgstr ""
+
+#: ../../source/Chapter5.rst:356
+# 277ca2a840e44b9db299db75b70ca227
+msgid "An automatic control valve is installed for each chiller. The pressure loss across the chiller is monitored. If the pressure loss is higher than the set point, the automatic valve closes and vice versa. Another automatic control valve is installed on the building by-pass line. If the building loop differential pressure is higher than the set point (25 psi), the bypass valve opens to maintain the set point."
+msgstr ""
+
+#: ../../source/Chapter5.rst:362
+# 7d8417cf8fab4a8bbbe9096cf3be9f5d
+msgid "Figure 5-9. Schematic Diagram of Chiller Plant at MRI Building"
+msgstr ""
+
+#: ../../source/Chapter5.rst:365
+# 7ce2f64cc209473491a614cdc8f756c7
+msgid "On September 10, 1998, a field inspection found that (1) the manual valve on the chiller exit was 50% closed and (2) the automatic valves were 50% closed when two chillers were on. The chilled water return temperature to the chillers was 47°F. Chiller supply temperature was 41°F. The building chilled water return temperature was 54°F. Approximately 54% of the chilled water bypassed the building loop."
+msgstr ""
+
+#: ../../source/Chapter5.rst:367
+# b8164a293f4943b0b0de97362dad16f7
+msgid "A test measured a chilled water flow rate of 550 gpm when one chiller was on with one pump. When two chillers were on, the chilled water flow rate was measured to be 400 gpm for each chiller with one pump on."
+msgstr ""
+
+#: ../../source/Chapter5.rst:369
+# 6ecd7ccfc3fc4d48b95f6b9194081f63
+msgid "To improve the chilled water loop operation, the following actions were taken:"
+msgstr ""
+
+#: ../../source/Chapter5.rst:371
+# ea0da046223d452486a356df1d8c497a
+msgid "The building loop differential pressure set point was increased from 25 psi to 35 psi"
+msgstr ""
+
+#: ../../source/Chapter5.rst:373
+# f3ea3d1ae45b4f2f947dc4995a3cf1b0
+msgid "The chiller loop section was balanced and each chiller was determined to have the same flow rate. All manual valves were opened to 100%. Since it is a parallel loop, balancing only required opening the valves."
+msgstr ""
+
+#: ../../source/Chapter5.rst:376
+# 481db51470d0473db07cde2000168bf3
+msgid "York was contracted to verify that the chillers can be operated safely if the chilled water flow is at least 150 gpm, or 26% of the design flow rate"
+msgstr ""
+
+#: ../../source/Chapter5.rst:378
+# c861d5a9a3fa49b0908f935ef702a432
+msgid "Only one pump was controlled to run regardless of the number of chillers in operation. According to the pump curve shown in Figure 5-10, the pump power will be less than 25 hp. if the chilled water flow is less than 930 gpm. Since the maximum building chilled water flow is less than 700 gpm based on measured data, the chilled water pump will not be overloaded. Note that the building loop differential pressure set point was raised from 25 psi to 35 psi. The increased setpoint prevents excessive building bypass. Consequently, it prevents excessive pump flow and pump overloading."
+msgstr ""
+
+#: ../../source/Chapter5.rst:386
+# 7c549117b841408b8689a705df5074a8
+msgid "An operating technician implemented the procedure following the formal recommendations by the CCSM engineer."
+msgstr ""
+
+#: ../../source/Chapter5.rst:389
+# 99e440d82e534929a8eca756de7007ac
+msgid "The improved pump operating procedures turned off one pump for 4 months, according to the operating log. Consequently, the pump energy savings were estimated to be 53,640 kWh/yr, or $3,754/yr assuming an electricity price of $0.07/kWh."
+msgstr ""
+
+#: ../../source/Chapter5.rst:396
+# 63ba9a4efdc34a3db2090731dd2dc8d7
+msgid "Figure 5-10. Chilled Water Pump Curve (regenerated using pump curves from TACO, TA Series Model 1229, speed 1760 RPM, and 10.25” impeller)"
+msgstr ""
+
+#: ../../source/Chapter5.rst:399
+# 8cad8426ccc249869fcb4ee35dae0be8
+msgid "5.3.2 Primary and Secondary Loop Systems"
+msgstr ""
+
+#: ../../source/Chapter5.rst:401
+# 7c8807ce0d534486ae90b0023c2fb9aa
+msgid "Primary and secondary systems are the most common chilled water distribution systems used with central chiller plants. This design is based on the assumption that the chilled water flow through the chiller must be maintained at the design level. This is seldom needed. Due to this incorrect assumption, a significant amount of pumping power is wasted in numerous central plants. Design engineers sometimes include an isolation valve on the bypass line of the primary loop. Sometimes, no valve is included. If no isolation valve is incorporated in the system, the following procedures should be followed to optimize system operation:"
+msgstr ""
+
+#: ../../source/Chapter5.rst:403
+# 23d88a10b7b340fda4a60be26d805974
+msgid "Balance chiller loops to maintain the same flow ratio (chilled water flow over the design flow) through each chiller. Ensure that all manual valves are fully open in at least one branch."
+msgstr ""
+
+#: ../../source/Chapter5.rst:406
+# ddbe6ec5fac3448f930701ea00e11fc2
+msgid "Adjust the flow switch on each chiller. Ensure that the switch sends a flow signal to the chiller control if the flow is higher than the minimum flow. Typically, the flow is set at the design flow rate. This can be decreased to 30% of the design flow rate."
+msgstr ""
+
+#: ../../source/Chapter5.rst:410
+# bd85230c46214f3987319d0fc1896015
+msgid "Match the pump flow rate to the entire load ratio under partial load conditions. For example, assume a central chiller plant has four chillers with a total capacity of 4,000 tons. If the load is 2,000 tons, two pumps and three chillers should be turned on. Each chiller then has a load ratio of 67% and each pump has a load ratio of 100%. It is recommended that chillers not run at load ratios higher than 80% or lower than 40%."
+msgstr ""
+
+#: ../../source/Chapter5.rst:416
+# 64ecdcbf07df4bc4a61e4b58e4270fd6
+msgid "Adjust automatic control valve cycle time to at least 60 seconds if older chillers (5 years or older) are used If an isolation valve is installed, the following procedures should be followed to optimize the pump operation."
+msgstr ""
+
+#: ../../source/Chapter5.rst:420
+# e96fcc050d3f47b9a813e16126a24945
+msgid "Balance chiller loops to maintain the same flow ratio through each chiller. Ensure that all manual valves are fully open in at least one branch."
+msgstr ""
+
+#: ../../source/Chapter5.rst:422
+# 3a4b3e461af64c7fa46ce080cefe4152
+msgid "Adjust the flow switch on each chiller. Ensure that the switch sends a flow signal to the chiller control if the flow is higher than the minimum flow. Typically, the flow is set at the design flow rate. This can usually be decreased to 30% of the design flow rate."
+msgstr ""
+
+#: ../../source/Chapter5.rst:426
+# e8d3063edc5249ca91d00676c0f0ab75
+msgid "Close the isolation valve and turn off the primary pumps when the plant load is low enough that the secondary pumps can provide enough head for the entire loop. Typically, this is possible when the load is below 80% of the design load, but this point will vary from plant to plant."
+msgstr ""
+
+#: ../../source/Chapter5.rst:430
+# 50165b6fbce148728fbd500185175128
+msgid "Run chillers with loads no higher than 80% and no lower than 40%. Use this guideline to determine the number of chillers in operation. For example, assume a central chiller plant has four chillers with a total capacity of 4,000 tons. If the load is 2,000 tons, three chillers should be turned on so each chiller has a load ratio of 67%. Pumps and cooling towers should use an optimal operating schedule as well."
+msgstr ""
+
+#: ../../source/Chapter5.rst:436
+# 2bcb4c2037884cefaf5a50b071d7a602
+msgid "Use the secondary pump to circulate water through both chillers and buildings. No changes are required for the secondary pumping control."
+msgstr ""
+
+#: ../../source/Chapter5.rst:438
+# 1feaed8f54ae426bae781918ab342c47
+msgid "Adjust the automatic control valve cycle time to at least 60 seconds if older chillers (5 years or older) are used"
+msgstr ""
+
+#: ../../source/Chapter5.rst:441
+# 41c67477c4da4180a014b803b4c3661e
+msgid "To decrease operational mode changes, the daily maximum load should be estimated when high loads are expected. If the daily maximum load requires primary pump operation, it is recommended that the primary pump(s) be left on all day."
+msgstr ""
+
+#: ../../source/Chapter5.rst:443
+# 32f95cf5ae30476baae79adb73f92d62
+msgid "More information can be found in “Variable Water Flow Pumping for Central Chilled Water Systems” [Liu, 2002], “Continuous CommissioningSM of a Central Chilled Water and Heating Hot Water System” [Deng et al. 2000a] and “Retrocommissioning of Central Chilled/Hot Water Systems” [Deng et al. 2002]."
+msgstr ""
+
+#: ../../source/Chapter5.rst:447
+# 0abc395f980e4829ac868b53046d20ab
+msgid "The South Satellite Utility Plant on the Texas A&M campus has three 1,100-ton chillers that operate in parallel as shown in Figure 5-11. Three 75 hp. chiller pumps are connected to a common header. The chillers are connected to the campus secondary loop through a decoupler, and three 250 hp. pumps connect to the campus secondary loop."
+msgstr ""
+
+#: ../../source/Chapter5.rst:449
+# 0a4585ac900c4dadac8e4ae51394d541
+msgid "This is a typical primary and secondary loop system. Each primary pump is interlinked with an individual chiller. When the chiller is on, the pump is on. The secondary pumps are controlled to maintain a required differential pressure at the exit of the plant. However, operators found that a significant amount of water flowed through the bypass line. Sometimes, chilled water bypassed the chillers. The supply water temperature to the buildings was too high and building comfort was not maintained. When chilled water bypassed the buildings, a significant amount of pump energy was wasted. As a fix, the central plant had an operator manually adjust the differential pressure set point to minimize the bypass flow to less than 200 gpm. This became a boring and costly task."
+msgstr ""
+
+#: ../../source/Chapter5.rst:455
+# 67c8e6bc95e148ae882b880edab82a7a
+msgid "Figure 5-11. Primary and Secondary Loop Configurations for the South Satellite Plant on the Texas A&M Campus"
+msgstr ""
+
+#: ../../source/Chapter5.rst:457
+# a4418b13c6cb4fb5b702a9300ddab2ec
+msgid "After conducting an engineering analysis, it was concluded that these problems could be solved by using a single loop operation. The major actions and procedures are listed below:"
+msgstr ""
+
+#: ../../source/Chapter5.rst:459
+# 6ab8bf7cbec2472ca82d287b3b905786
+msgid "The flow meter on the main loop and the flow meters on each chiller branch were calibrated. These flow signals were sent to the Building Automation System (BAS)."
+msgstr ""
+
+#: ../../source/Chapter5.rst:462
+# 36c7c9a0e7f24fa19bd5a5b2f07ba556
+msgid "All three chiller loops were balanced. All chillers have the same flow when they are on. All manual valves were opened 100% on each chiller branch."
+msgstr ""
+
+#: ../../source/Chapter5.rst:464
+# 69161c6fd56d4dd7914a28ecc196b177
+msgid "All three primary pumps were turned off"
+msgstr ""
+
+#: ../../source/Chapter5.rst:465
+# d4378f9369774965a490751a30a80934
+msgid "The bypass valve was closed permanently"
+msgstr ""
+
+#: ../../source/Chapter5.rst:466
+# 1dd8a9da17a141c98350857840fb0f9c
+msgid "The chilled water flow rate was maintained using the secondary loop pump."
+msgstr ""
+
+#: ../../source/Chapter5.rst:468
+# f76c241ba3474984b806cbdc147a70df
+msgid "When the loop differential pressure exceeds the set point by a certain value, one chiller is turned off. When the loop differential pressure drops below the set point by a certain value, one more chiller is turned on."
+msgstr ""
+
+#: ../../source/Chapter5.rst:472
+# 3bcd8f505bbc4119a342ff85deac19d4
+msgid "This change in loop operation maintained the plant supply water temperature at the required temperature (42°F). Hot calls decreased significantly. The new schedules were implemented in the existing BAS and the operators were liberated from a boring job of manual control. The pump power consumption was also reduced due to decreased chilled water bypass. The detailed calculation is summarized in Table 5-1."
+msgstr ""
+
+#: ../../source/Chapter5.rst:475
+# 4fdba1aa1a654fac954d037ae3108af6
+msgid "Table 5-1. Operational Characteristics of the South Plant with Primary-Secondary Pumping and with Secondary-Only Pumping"
+msgstr ""
+
+#: ../../source/Chapter5.rst:478
+# b8e1215c2a274c4c9e6891d167927bed
+msgid "Chillers"
+msgstr ""
+
+#: ../../source/Chapter5.rst:478
+# f7ba7c2573aa40d6bc6de02dcb3b0048
+msgid "Primary secondary Pumping"
+msgstr ""
+
+#: ../../source/Chapter5.rst:478
+# 6526d55a95c64160b96959d7fe768fad
+msgid "Secondary only Pumping"
+msgstr ""
+
+#: ../../source/Chapter5.rst:478
+# 159d2d0883e94f39a0dbc58a7a399284
+msgid "Savings"
+msgstr ""
+
+#: ../../source/Chapter5.rst:480
+#: ../../source/Chapter5.rst:482
+#: ../../source/Chapter5.rst:482
+# adba5d6b3d814356b7b9531faccd4ffe
+# 5f6b9246f3b74182a1e94c7dab25373f
+# 37a18f5bedfb4940aaf0d80ad929b0cb
+msgid "in Use"
+msgstr ""
+
+#: ../../source/Chapter5.rst:480
+# 9f601373a17a4ce6a8154c5913b374cf
+msgid "No. of Sp"
+msgstr ""
+
+#: ../../source/Chapter5.rst:480
+#: ../../source/Chapter5.rst:480
+# 6687030a1a364225a6da0ff1478d30b2
+# 305773ea6ecf4468a5cdc597f45fc67d
+msgid "VFD"
+msgstr ""
+
+#: ../../source/Chapter5.rst:482
+#: ../../source/Chapter5.rst:482
+# e1c6a3a125b3457385a567cfc692fabc
+# fcf8b7297828434c8fdefc5a95efdef1
+msgid "Speed"
+msgstr ""
+
+#: ../../source/Chapter5.rst:480
+#: ../../source/Chapter5.rst:480
+# ecfd6ef9759a4ef9bcb73b6bc6df4315
+# 10376e3c10cd42e3bb20aed2fe6f9fbe
+msgid "Power"
+msgstr ""
+
+#: ../../source/Chapter5.rst:482
+#: ../../source/Chapter5.rst:482
+# 5472102ee5eb4e968a812543013cda24
+# fb1023b7a2c7412794547bb97128061c
+msgid "Consumption"
+msgstr ""
+
+#: ../../source/Chapter5.rst:480
+# e02152a7a68d43c3828ffa4fb13e33d0
+msgid "No. of SP"
+msgstr ""
+
+#: ../../source/Chapter5.rst:485
+#: ../../source/Chapter5.rst:485
+# c119c595782b48638384067515f8471a
+# 0153cc8b88d241d98f1203eb49668058
+msgid "1"
+msgstr ""
+
+#: ../../source/Chapter5.rst:485
+#: ../../source/Chapter5.rst:486
+#: ../../source/Chapter5.rst:486
+#: ../../source/Chapter5.rst:486
+# 3934f2513eab4bb3bab25202914c03ce
+# a56bd5fa94c64173b328bbba26ae8150
+# 85be7d98029243e1a97d263f55b59d33
+# 6e421ffbdb3641b3bd10b54d88b866b8
+msgid "2"
+msgstr ""
+
+#: ../../source/Chapter5.rst:485
+#: ../../source/Chapter5.rst:487
+#: ../../source/Chapter5.rst:487
+#: ../../source/Chapter5.rst:487
+# 0c5bee8635724d48bacbccf937ff99e0
+# 4045c5551d364cd0bbf29b2031aa7f2f
+# 3b647f0858f74c7c978a16df2ceaff0c
+# 37839a985d1d4e108c243beb79575210
+msgid "3"
+msgstr ""
+
+#: ../../source/Chapter5.rst:485
+# 348dee9235df44efbb6920379d9e16de
+msgid "6X2+65=77"
+msgstr ""
+
+#: ../../source/Chapter5.rst:485
+# d98788b6675e4af7894efad7d5279212
+msgid "5"
+msgstr ""
+
+#: ../../source/Chapter5.rst:485
+# 46b70c7e4f63482da951980fd702c9cd
+msgid "29"
+msgstr ""
+
+#: ../../source/Chapter5.rst:485
+# fb91d5d67527458f83cf9ec6c6aedf3e
+msgid "48"
+msgstr ""
+
+#: ../../source/Chapter5.rst:486
+#: ../../source/Chapter5.rst:487
+# 9e5c2c786cd2467995d0948ab8e16412
+# 9689a06e33534fb58eb057254580e824
+msgid "4"
+msgstr ""
+
+#: ../../source/Chapter5.rst:486
+# 64583a38bf2e464c87b1d1edf0535ede
+msgid "15X2+65X2=160"
+msgstr ""
+
+#: ../../source/Chapter5.rst:486
+# fdc745053d7b48c2ae7e2439a9f414dc
+msgid "6"
+msgstr ""
+
+#: ../../source/Chapter5.rst:486
+# d555fe80d8c54204a132517e9001d14b
+msgid "48X2=96"
+msgstr ""
+
+#: ../../source/Chapter5.rst:486
+# 7a3f5739fec94fd1aa156bfaf2661eaa
+msgid "64"
+msgstr ""
+
+#: ../../source/Chapter5.rst:487
+# 4ba2bd07ad91412fb57d9c6f830c2a83
+msgid "15X3+65X3=260"
+msgstr ""
+
+#: ../../source/Chapter5.rst:487
+# 593aedfc7bae4645b4312445b823b526
+msgid "6.5"
+msgstr ""
+
+#: ../../source/Chapter5.rst:487
+# 65bf2756fc55457e87fd37f6b8ab323e
+msgid "60X3=180"
+msgstr ""
+
+#: ../../source/Chapter5.rst:487
+# cce189dbbb4543a29be29a40524c86aa
+msgid "80"
+msgstr ""
+
+#: ../../source/Chapter5.rst:490
+# 940bdd9b849c4678b3769f3b43ce9120
+msgid "With the original operating scheme, measured pumping power consumption was as shown in the “power consumption” column under “Primary-secondary Pumping” in the table. It shows 65 hp. for each primary pump with smaller amounts for the secondary pumps. After conversion to secondary only pumping, the primary pump consumption was eliminated with secondary pump power shown in the “power consumption” column under secondary-only pumping. We see that pumping savings range from 48 hp. for single chiller operation to 80 hp. for three chiller operation. Removing the primary pumps can save more pump power. However, the flow resistance across the pump is very small when the pump is rotating freely."
+msgstr ""
+
+#: ../../source/Chapter5.rst:492
+# e0e6626d0be84985835fa439ab0395e8
+msgid "For more details on this example, see “Installing Chiller Isolation Valves and Staging Chillers Under EMCS-A Case Study” [Deng et al. 2000b]."
+msgstr ""
+
+#: ../../source/Chapter5.rst:495
+# 4449f44596f144fb9c8c22394372f889
+msgid "5.4 Other Tips"
+msgstr ""
+
+#: ../../source/Chapter5.rst:497
+# 3d73bd91f2ac4f39987598d18285e2c3
+msgid "Check the expansion tank frequently and ensure it maintains a positive pressure for the entire system and does not over-pressurize the system."
+msgstr ""
+
+#: ../../source/Chapter5.rst:499
+# cfd19efbb08443c6840aa9ea1b011285
+msgid "Supply water temperature reset has a significant impact on the differential pressure set point. The differential pressure reset schedule should consider the impact of the temperature reset schedules. Typically, the temperature reset schedule should limit the chilled water flow below 60%. When the water flow is higher than 60% of the design value, the temperature reset significantly increases the pumping power."
+msgstr ""
+
+#: ../../source/Chapter5.rst:501
+# a9dfe3725c104ce3835ecbeae39435f5
+msgid "Frequently check the make-up water to identify any leakage. Make-up water costs money but more importantly, it also causes corrosion and fouling in coils."
+msgstr ""
+
+#: ../../source/Chapter5.rst:503
+# ef47e216279642c1901fcc44b0fc5539
+msgid "**References**"
+msgstr ""
+
+#: ../../source/Chapter5.rst:505
+# 03fd27b218b9416e81c4034c113d5b05
+msgid "Deng, S., M. Liu and W.D. Turner, 1998. “Reducing Pump Power Consumption by (1000 kW) 40% Through Improved Pump Management in a Central Plant.” 33rd Intersociety Engineering Conference on Energy Conversion, Colorado Springs, Colo., August 2-6, pp. 1428-1434."
+msgstr ""
+
+#: ../../source/Chapter5.rst:507
+# 7a0f9a029c9948d88630e1050b19bafe
+msgid "Deng S., W. D. Turner, T. Batten, and M. Liu, 2000a. “Continuous CommissioningSM of a Central Chilled Water and Heating Hot Water System,” Proc. Twelfth Symposium on Improving Building Systems in Hot and Humid Climates, May 15-16, San Antonio, Texas, pp. 199-206."
+msgstr ""
+
+#: ../../source/Chapter5.rst:510
+# f6de128784594561823ce6ad9d3aff2a
+msgid "Deng S., W. D. Turner, and M. Liu, 2000b. “Commissioning of a Large Office Building in Texas - A Case Study,” Proc. Twelfth Symposium on Improving Building Systems in Hot and Humid Climates, May 15- 16, San Antonio, Texas, pp. 146-153."
+msgstr ""
+
+#: ../../source/Chapter5.rst:512
+# 8b7a2f4acb1641a09d5f2ccf290bad9c
+msgid "Deng S., W. D. Turner, D. E. Claridge, M. Liu, H. Bruner, H. Chen, and G. Wei, 2002, “Retrocommissioning of Central Chilled/Hot Water Systems,” ASHRAE Transactions - Research, Vol. 108, Part II, pp. 75-81."
+msgstr ""
+
+#: ../../source/Chapter5.rst:514
+# bd19724dfdb0406b8b29e5ed30ec2912
+msgid "Liu, M., Zhu, Y., Powell, T., and Claridge, D.E., 1998 . “System Optimization Saves $195,000/yr. in a New Medical Facility,” Proceedings of the 6th National Conference on Building Commissioning, Lake Buena Vista, FL, May 18-20, pp. 14.2.1-14.2.11."
+msgstr ""
+
+#: ../../source/Chapter5.rst:516
+# 32a8ca46a25940ee971e5bc736149371
+msgid "Liu, M., 2002, “Variable Water Flow Pumping for Central Chilled Water Systems.” ASME Journal of Solar Energy Engineering, Vol. 124, pp. 300-304."
+msgstr ""
+
+#: ../../source/Chapter5.rst:518
+# 5d6e26cec399454f8487ab17a5df86ea
+msgid "Zhu Y, M. Liu, T. Batten, W. D. Turner, D. E. Claridge, B. Keeble, C. Cameron, and R. Hirchak, 2000. “A Simple and Quick Chilled Water Loop Balancing for Variable Flow Systems,” Proc. Twelfth Symposium on Improving Building Systems in Hot and Humid Climates, May 15-16, San Antonio, Texas, pp. 158-162."
+msgstr ""
+

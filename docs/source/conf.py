@@ -55,5 +55,8 @@ html_static_path = ['_static']
 
 master_doc = 'index'
 
+locale_dirs = ['locale/']  #https://sphinx-intl.readthedocs.io/en/master/quickstart.html
+gettext_uuid = True
+gettext_compact = False  #optional
 
 mathjax_path = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML'

@@ -1,0 +1,2673 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Building Energy Studio
+# This file is distributed under the same license as the Continuous
+# Commissioning package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Continuous Commissioning \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 13:54+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+# bc34c058322a403fb1fec50fe68d1ea2
+#: ../../source/Chapter10.rst:2
+msgid "Case Studies"
+msgstr ""
+
+# 4e9c8dea749c4de59d236aa7f6c17b4d
+#: ../../source/Chapter10.rst:5
+msgid ""
+"Two detailed CCSM projects are presented to demonstrate the process and "
+"the energy efficiency and comfort improvements. Although numerous case "
+"studies were presented throughout the guidelines, the complete "
+"presentations of the case studies provide opportunities for readers to "
+"understand and learn the detailed techniques. The first case study is the"
+" Zachry Engineering Center (ZEC) located on the Texas A&M University "
+"Campus, College Station, Texas. The CCSM was conducted after a successful"
+" energy retrofit. The second example is the Brooke Army Medical Center "
+"(BAMC) located in San Antonio, Texas. The CCSM was conducted three years "
+"after completion of the building. This is considered as a CCSM project "
+"for a new building."
+msgstr ""
+
+# 3ec352e346834a80a36d93a06dbdbee7
+#: ../../source/Chapter10.rst:8
+msgid "Project 1: Zachry Engineering Center Continuous CommissioningSM"
+msgstr ""
+
+# 6b1cb02f9d4e485d9885f3bf1ff55643
+#: ../../source/Chapter10.rst:10
+#, python-format
+msgid ""
+"Zachry Engineering Center (ZEC) is a 340,000 sq.ft. teaching and research"
+" building, located on the Texas A&M University campus. The building has "
+"four floors and a heated-only parking garage in the basement. It was "
+"constructed in the early 1970s and has heavy concrete floors and "
+"insulated exterior walls made of pre-cast concrete and porcelain-plated "
+"steel panels. Approximately 12% of the exterior wall area is covered with"
+" single-pane, bronze-tinted glazing. The windows are recessed "
+"approximately four feet from the exterior walls, providing some shading. "
+"Approximately 3,100 sq.ft. of northeast-facing clerestory windows admit "
+"daylight into the core of the building."
+msgstr ""
+
+# 69ab599a50a94c9bae5a12273328c2f4
+#: ../../source/Chapter10.rst:17
+msgid "Figure A-1. The Zachry Engineering Center (ZEC) on the Texas A&M Campus"
+msgstr ""
+
+# 56eaf81bcc0b410a80096f8e5507bf32
+#: ../../source/Chapter10.rst:19
+msgid ""
+"The ZEC includes offices, classrooms, laboratories and computer rooms and"
+" is open 24 hours per day, 365 days per year with heaviest occupancy "
+"during normal working hours between 8 a.m. and 6 p.m. on weekdays. "
+"Occupancy, electrical consumption and chilled/hot water consumption show "
+"marked weekday/weekend differences with peak weekend electrical "
+"consumption less than 10% above the nightly minimum. Weekday holiday "
+"occupancy is similar to weekend usage with intermediate usage on weekdays"
+" between semesters when class rooms are not in use, but laboratories and "
+"offices are occupied."
+msgstr ""
+
+# d00640e5e19a4323a28551ed1bbec6cf
+#: ../../source/Chapter10.rst:21
+msgid "**Original HVAC Systems**"
+msgstr ""
+
+# fb0eb608de3543fc89f9f3ba23e901c5
+#: ../../source/Chapter10.rst:23
+#, python-format
+msgid ""
+"Twelve identical dual-duct constant volume systems with 40 hp. fans rated"
+" at 35,000 cfm and eight smaller air handlers (3 hp. average) supply air "
+"to the zones in the building. Supply and return air ducts are located "
+"around the perimeter of the building. These were operated with a constant"
+" outdoor air intake at a nominal value of 10% of design flow. Additional "
+"information about the building can be found in Katipamula and Claridge "
+"[1992a, 1992b], Bronson [1992], Bronson, et al. [1992], and Haberl, et "
+"al. [1993, 1995]."
+msgstr ""
+
+# cb5aa8d610dd4d298041a62114e1b71f
+#: ../../source/Chapter10.rst:25
+msgid "**Monitoring of energy use**"
+msgstr ""
+
+# 1c75c8d025f94154b66b6b6b918c64cf
+#: ../../source/Chapter10.rst:27
+msgid ""
+"Approximately 50 channels of hourly data have been collected and recorded"
+" each week for the Zachry Engineering Center since May 1989. The sensors "
+"are scanned every 4 seconds and the values are integrated to give hourly "
+"totals or averages as appropriate. The important channels for savings "
+"measurement are those for air handler electricity consumption and whole-"
+"building heating and cooling energy use. Air handler electricity "
+"consumption is measured at the building’s motor control center (MCC) and "
+"represents all of the air-handling units and most of the heating, "
+"ventilating, and air-conditioning-related HVAC pumps in the building. "
+"Cooling and heating energy use are determined by a Btu meter which "
+"integrates the monitored fluid flow rate and temperature difference "
+"across the supply and return lines of the chilled and hot-water supply to"
+" the building. Most of the 50 channels of monitored information come from"
+" one air handler that is highly instrumented [Katipamula and Claridge "
+"1992a]."
+msgstr ""
+
+# fd4dc2937f504e869d71d7fe42e30090
+#: ../../source/Chapter10.rst:29
+msgid "**HVAC System Retrofit**"
+msgstr ""
+
+# 42edcf55012d479db878cf6b83a22c08
+#: ../../source/Chapter10.rst:31
+msgid ""
+"An energy audit of the Zachry Engineering Center was conducted in 1986 "
+"[TECCP, 1986]. This audit recommended a lighting retrofit to convert the "
+"four-lamp fixtures to three-lamp fixtures with reflectors, conversion of "
+"the large dual-duct constant air volume (DDCAV) systems to dual-duct "
+"variable-air volume (DDVAV) systems, and a connection to the campus "
+"energy management and control system (EMCS). The lighting retrofit was "
+"projected to save 975,600 kWh/yr of electricity, 2,500 MMBtu/yr of "
+"chilled water and increase hot water use by 832 MMBtu/yr with a payback "
+"of 4.4 years. The variable air volume (VAV) conversion, with controls "
+"improvements, was projected to save 1,952,776 kWh/yr on fan power, 115 "
+"MMBtu/yr of hot water and 265 MMBtu/yr of chilled water. The simple "
+"payback is 3.3 years. The university chose not to implement the lighting "
+"retrofit, but had variable speed drives installed on the twelve large "
+"AHUs, replaced the constant volume dual-duct terminal boxes with VAV "
+"dual-duct terminal boxes and connected the building to the campus "
+"automated control system."
+msgstr ""
+
+# 56009f0dc62f4428a3be22f0c2c00737
+#: ../../source/Chapter10.rst:33
+msgid ""
+"The audit proposed that the DDCV be converted to DDVAV systems before "
+"installing variable speed drives on 24 fans with associated static "
+"pressure sensors and controls. The existing constant volume terminal "
+"boxes which typically operated at static pressures above 0.5 in. H2O, "
+"were to be replaced by DDVAV boxes with independent controls on the hot "
+"decks and cold decks to provide constant minimum flow rates of 0.65 "
+"cfm/sq.ft. The new boxes and controls were to be tied to the campus EMCS."
+" This was intended to permit shutdown of heating and cooling to non-"
+"critical areas such as classrooms during unoccupied hours by closing the "
+"dampers in the VAV boxes while the fans continued to supply heating and "
+"cooling to laboratory areas. The repair and upgrade of the existing EMCS "
+"in the building was intended to control time-of-day settings, DDVAV box "
+"load group override, hot and cold deck reset, optimal start-stop of a "
+"load group DDVAV box to ensure space comfort, and space temperature "
+"reset."
+msgstr ""
+
+# 46fed63db4a1443ca7b3aed2e6ab94a7
+#: ../../source/Chapter10.rst:35
+msgid ""
+"After the building was retrofitted in 1991, fan power, chilled water "
+"consumption, and hot water consumption all dropped substantially. The fan"
+" power dropped from virtually constant consumption, approximately 350 kW "
+"before the retrofit as shown in Figure A-2, to consumption that varied "
+"from approximately 180 kW below 50°F to approximately 200 kW between 68°F"
+" and 86°F."
+msgstr ""
+
+# 8ee8c84cc1a349f0b55f569035cfae27
+#: ../../source/Chapter10.rst:41
+msgid ""
+"Figure A-2. ZEC Daily MCC Consumption in 1990 Before the Retrofit, in "
+"1994 After the Retrofit"
+msgstr ""
+
+# c0531895d51843e9be23a2a5efcfb533
+#: ../../source/Chapter10.rst:43
+msgid ""
+"Chilled water use dropped substantially as well. Figure A-3 shows the "
+"daily chilled water consumption (MMBtu/day) in 1990 and 1994 as a "
+"function of daily average ambient temperature. Before the retrofit, the "
+"consumption depended almost linearly on the ambient temperature, "
+"increasing from approximately 95 MMBtu/day at 40°F to approximately 160 "
+"MMBtu/day at 86°F. The consumption following the retrofit was "
+"approximately the same at high temperatures, but dropped quite rapidly to"
+" about 85 MMBtu/day at 70°F and then dropped more slowly to about 43 "
+"MMBtu/day at 31°F. There is, of course, considerable scatter due to "
+"variation of ambient humidity conditions and certain operating practices."
+" The general linear and piece-wise linear behavior of the chilled water "
+"consumption of the DDCV and DDVAV systems respectively, are consistent "
+"with the theoretically expected system behavior [Kissock et al. 1998]."
+msgstr ""
+
+# 017199038b4646e5b9087e0dbc0b64b7
+#: ../../source/Chapter10.rst:45
+msgid ""
+"The measured daily hot water consumption values for 1990 and 1994 are "
+"shown in Figure A-4. Summer use of hot water was essentially eliminated "
+"and peak winter consumption cut in half."
+msgstr ""
+
+# 80766334e185449ea3febf87b93650c6
+#: ../../source/Chapter10.rst:47
+msgid ""
+"The annualized savings estimated in the audit and the savings determined "
+"from the measured consumption data, before and after the retrofit, are "
+"shown in Table A-1. The “measured” savings correspond to those for 1994, "
+"which was chosen as a typical year after the retrofit and before the "
+"Continuous CommissioningSM process was applied to the building. The fan "
+"power savings were determined by subtracting 1994 hourly consumption "
+"values from the average hourly fan power consumption before the retrofit."
+" The fractional reduction in fan consumption is very close to that "
+"projected in the audit, but the consumption reduction is substantially "
+"smaller than expected since the audit engineers overestimated the "
+"original fan power."
+msgstr ""
+
+# d729aeddc3994e7889371aee38fdb15a
+#: ../../source/Chapter10.rst:53
+msgid ""
+"Figure A-3. ZEC Daily Chilled Water Consumption in 1990 Before the "
+"Retrofit and in 1994 After the Retrofit"
+msgstr ""
+
+# ca79cd9186f2462db7b2b32511b5788c
+#: ../../source/Chapter10.rst:60
+msgid ""
+"Figure A-4. ZEC Daily Hot Water Consumption in 1990 Before the Retrofit "
+"and in 1994 After the Retrofit"
+msgstr ""
+
+# b217d73c222e443b861d8c0c49ec0e0f
+#: ../../source/Chapter10.rst:63
+msgid ""
+"The annual chilled water and hot water savings have been determined using"
+" a process that normalizes the savings from the retrofit and the "
+"subsequent CCSM process to the same weather year. The process calibrated "
+"a simulation program (AirModel) [Liu and Claridge 1998] to the measured "
+"consumption for one year prior to the retrofit (1989-90), one year after "
+"the retrofit (1994) and one year after the CCSM process was applied "
+"(1997). Each of the three calibrated simulations were then run using 1994"
+" weather data and compared to determine the annualized savings."
+msgstr ""
+
+# 97e5c5f254ba49a09a10255933f0469d
+#: ../../source/Chapter10.rst:66
+msgid "Table A-1. Retrofit Savings for the Zachry Building"
+msgstr ""
+
+# 9851c7e1459444e39bf8d4a6d0b0b571
+# 3af2957728594bad8eb2d29e3ce54e00
+# caa215ea25094366bc8c17e057d4b248
+#: ../../source/Chapter10.rst:70 ../../source/Chapter10.rst:72
+#: ../../source/Chapter10.rst:453
+msgid "---"
+msgstr ""
+
+# df386ede96ff480780ef3a6313c8fa2a
+# c23c27c935fc48f9a0c418cf1a40e00f
+# 4b05d570577f44a98e3f399c6fe4902a
+# 528c997c045e4e6f984b546ca57a8698
+# 072e95c7f21b4e969610d8c87404acc1
+# 1a4a4938235d4e89bf86bbb6dca9e0b8
+#: ../../source/Chapter10.rst:70 ../../source/Chapter10.rst:72
+#: ../../source/Chapter10.rst:134 ../../source/Chapter10.rst:259
+msgid "--"
+msgstr ""
+
+# 248770daf6ef4329828c100b28d2746f
+# 15b4068fbd6a484ba1138437d5de5e43
+#: ../../source/Chapter10.rst:70 ../../source/Chapter10.rst:453
+msgid "Savings"
+msgstr ""
+
+# 31bac83f2170451fa3a5278404ce9f39
+#: ../../source/Chapter10.rst:72
+msgid "Audit"
+msgstr ""
+
+# 9b6df6999e3b4ddc95a1f175f24e847e
+#: ../../source/Chapter10.rst:72
+msgid "Estimated"
+msgstr ""
+
+# e94078a3e575445f951249d5bfbd349b
+#: ../../source/Chapter10.rst:72
+msgid "Measured"
+msgstr ""
+
+# 66a4e5c732694c9f8451fea31f719083
+#: ../../source/Chapter10.rst:74
+msgid "Fan power"
+msgstr ""
+
+# fa6155270ac8437688329aaf700a4f05
+# 1889dde9c6d3420da6bbdceb62da8f85
+#: ../../source/Chapter10.rst:74 ../../source/Chapter10.rst:472
+msgid "40%"
+msgstr ""
+
+# 1725ee592767419587e84a33a59399e1
+#: ../../source/Chapter10.rst:74
+msgid "1,952,764kWh/yr"
+msgstr ""
+
+# f4543fc29ba642d8be045276f60caf1f
+#: ../../source/Chapter10.rst:74
+msgid "44%"
+msgstr ""
+
+# 11fc2f58b7c844f5aca55a1e5b6468d4
+#: ../../source/Chapter10.rst:74
+msgid "1,300,000kWh/yr"
+msgstr ""
+
+# 6e9f0a9665c2478bb55b564257e1eb78
+# 549463e7d79b4a918114cd977e7434e8
+#: ../../source/Chapter10.rst:75 ../../source/Chapter10.rst:137
+msgid "Chilled Water"
+msgstr ""
+
+# 09d541c7eb6d4405b163a5696754f3e1
+# c8f5dc05661c49788e67ed5cefd25f4a
+#: ../../source/Chapter10.rst:75 ../../source/Chapter10.rst:458
+msgid "37%"
+msgstr ""
+
+# a04cf5375d2f425a83b8d77fe9a2d2b7
+#: ../../source/Chapter10.rst:75
+msgid "26,600MMBtu/yr"
+msgstr ""
+
+# e4d34459b396488ea1ba9e7e280d62c8
+# 21694ad8b24d4f45817a05565aeff87e
+#: ../../source/Chapter10.rst:75 ../../source/Chapter10.rst:457
+msgid "23%"
+msgstr ""
+
+# c3785f8730f4440eb7e6df424d515937
+#: ../../source/Chapter10.rst:75
+msgid "10,500MMBtu/yr"
+msgstr ""
+
+# da814ab0e35d48deb0af708c5a6f7618
+# 64e621a1b3d24106926f35cc4f4bd675
+#: ../../source/Chapter10.rst:76 ../../source/Chapter10.rst:138
+msgid "Heating Water"
+msgstr ""
+
+# 3851f3ef4310482d96869f97b0ea84a2
+#: ../../source/Chapter10.rst:76
+msgid "49%"
+msgstr ""
+
+# c49e50d364be4c20ad3418088e867435
+#: ../../source/Chapter10.rst:76
+msgid "11,500MMBtu/yr"
+msgstr ""
+
+# a5912f4bf7dd49ce8e2db26a5d34baac
+#: ../../source/Chapter10.rst:76
+msgid "84%"
+msgstr ""
+
+# 81e0edb09faf467c899ede2cf1230061
+#: ../../source/Chapter10.rst:76
+msgid "15,900MMBtu/yr"
+msgstr ""
+
+# 5b5af026b33140d08924c7eee09c66fa
+#: ../../source/Chapter10.rst:80
+msgid ""
+"This process resulted in the weather-normalized “measured” chilled water "
+"and heating water savings shown in Table A-1. Both the fractional chilled"
+" water savings and the reduction in chilled water consumption were "
+"substantially smaller than projected in the audit. The audit engineers "
+"again overestimated pre-retrofit consumption -- in this case by more than"
+" 50%. On the other hand, both the fractional hot water savings and the "
+"consumption reduction were larger than expected."
+msgstr ""
+
+# 396dfa5421694f7c8f101b0209cad459
+#: ../../source/Chapter10.rst:82
+msgid "**Continuous CommissioningSM of the Zachry Engineering Center**"
+msgstr ""
+
+# c1aec211c83b4cd2aace3535ecb7869c
+#: ../../source/Chapter10.rst:84
+msgid ""
+"The Continuous CommissioningSM process described earlier was applied "
+"after the retrofit of this building. In 1996 and early 1997, it was "
+"applied to the Zachry Engineering Center as part of the campus-wide "
+"implementation. Metering was specified and installed in most campus "
+"buildings as described elsewhere [Claridge et al. 2000]. Metering had "
+"been installed much earlier in the Zachry Engineering Center as part of "
+"the retrofit process. Therefore, no additional metering was installed."
+msgstr ""
+
+# e877225f801a4d21bc38f01b239b5cd2
+#: ../../source/Chapter10.rst:86
+msgid ""
+"The CCSM facility survey found that the building control system set-up "
+"was far from optimum and found numerous other problems in the building as"
+" well. The basic control strategies found in the building are summarized "
+"in Table A-2. The ranges shown for constant parameters reflect different "
+"constant values for different individual air handlers."
+msgstr ""
+
+# d3080b239e1d42358a9c0e9ccff4be12
+#: ../../source/Chapter10.rst:88
+msgid ""
+"The control practices shown in the table are widely used in Texas, but "
+"none are optimal for this building. The campus controls engineer worked "
+"closely with the CCSM engineers during the survey. The items shown in "
+"Table A-2 could all be determined by examining the control system in the "
+"building. However, the facility survey also examined a great deal of the "
+"equipment throughout the building and found numerous cases of hot and "
+"chilled water valves that were leaking, control settings that caused "
+"continuous motion and unnecessary wear on valves, air ducts that had "
+"blown off of the terminal boxes, kinks in air ducts that led to rooms "
+"that could not be properly heated or cooled, etc."
+msgstr ""
+
+# a788db655d904767a0ff9596f9068be5
+#: ../../source/Chapter10.rst:90
+msgid ""
+"Table A-2. Major Control Settings Found in the Zachry Engineering Center "
+"During the CCSM Survey"
+msgstr ""
+
+# c2764239402a4251862ef9d0e82a4a87
+# 62964e1d4c464e04b4b650a62e66255e
+#: ../../source/Chapter10.rst:94 ../../source/Chapter10.rst:115
+msgid "Parameter"
+msgstr ""
+
+# 9d4f560cce8d43fb935970b82424ccdf
+#: ../../source/Chapter10.rst:94
+msgid "Control Practice"
+msgstr ""
+
+# 5e37e81faa474e9f911cf63d73bbac1e
+# 67e7822f14cd4177842a22b44a0720df
+#: ../../source/Chapter10.rst:96 ../../source/Chapter10.rst:117
+msgid "Pressure in air ducts"
+msgstr ""
+
+# 2e6bc7c9e97a407e9618c0daf3360f68
+#: ../../source/Chapter10.rst:96
+msgid "constant at 2.5-3.5 in.H2O"
+msgstr ""
+
+# aaeb312feab149198fd34b7a5abeff68
+#: ../../source/Chapter10.rst:97
+msgid "Cold air temperautre"
+msgstr ""
+
+# ba10f2f919fd446982e774578377f379
+# 0a719a9e921d4017a46ef58be8f43791
+#: ../../source/Chapter10.rst:97 ../../source/Chapter10.rst:118
+msgid "Constant at 50°F-55°F"
+msgstr ""
+
+# 43c750c99d124f9ca2c0aa279ab90e89
+# 9b0d52ec48454a40a82bc9fc6793eef5
+#: ../../source/Chapter10.rst:98 ../../source/Chapter10.rst:119
+msgid "Hot air temperature"
+msgstr ""
+
+# 0c024318387240639e9c38ed96e02d4a
+# 152a0104e5484730a0b1c0bcebf16211
+#: ../../source/Chapter10.rst:98 ../../source/Chapter10.rst:119
+msgid "Constant at 110°F-120°F"
+msgstr ""
+
+# 972a9bc11c944ecdaff06b935929f505
+# cc3b954bea344ae9a8c135be63d1e1a1
+#: ../../source/Chapter10.rst:99 ../../source/Chapter10.rst:120
+msgid "Air flow to rooms"
+msgstr ""
+
+# 00d4ae70552d44379088d518c9f26af9
+# ccb570a72e4c410f879a716b3b794a35
+#: ../../source/Chapter10.rst:99 ../../source/Chapter10.rst:120
+msgid "Variable - but inefficient"
+msgstr ""
+
+# 7e6b3e9419c74cbcb35aa9e1f8cea65f
+# 818f26e2b186494ab46b648b5b575d90
+#: ../../source/Chapter10.rst:100 ../../source/Chapter10.rst:121
+msgid "Heating pump control"
+msgstr ""
+
+# 5e951ab945a54d7b8ec3c6b58be8854a
+# 684dc7fd57db4f09a7a34618352de379
+#: ../../source/Chapter10.rst:100 ../../source/Chapter10.rst:121
+msgid "Operated continuously"
+msgstr ""
+
+# cd126c887d844055916a9bf6a5a82374
+# d2aa12204a7d4ed394e5ac80ef59b331
+#: ../../source/Chapter10.rst:101 ../../source/Chapter10.rst:122
+msgid "Cooling pump control"
+msgstr ""
+
+# 5ce74903f5884953a451d6c584087673
+# 6c64ddf7da554ac293366d3bb31d29a2
+#: ../../source/Chapter10.rst:101 ../../source/Chapter10.rst:122
+msgid "Variable speed with shut-off"
+msgstr ""
+
+# 9c2105e1ed7b484294a82a044967e5c6
+#: ../../source/Chapter10.rst:104
+msgid ""
+"Following the survey, the building performance was analyzed and optimum "
+"control schedules were developed for the building in cooperation with the"
+" campus controls engineer. Major control parameters for the air handlers,"
+" pumps and terminal boxes were changed to values shown in the “Post-CCSM”"
+" column of Table A-3."
+msgstr ""
+
+# 2a9142162d5e4c639f3415fdb134b555
+#: ../../source/Chapter10.rst:106
+msgid ""
+"In addition to optimizing the control settings for the building’s heating"
+" and cooling systems, numerous problems specific to individual rooms, "
+"ducts or terminal boxes were diagnosed and resolved. These included: "
+"damper motors that were disconnected, bent air ducts that could not "
+"supply enough air to properly control room temperature, leaking air "
+"dampers, and dampers that indicated open when only partly open."
+msgstr ""
+
+# 906a05954c2246b0a62906890f841649
+#: ../../source/Chapter10.rst:108
+msgid ""
+"Problems of this sort had often led to occupant complaints that were "
+"partially resolved without fixing the real problem. For example, if a "
+"duct was constricted so that inadequate air flow reached a room, the "
+"pressure in the air handler might be increased to get additional flow "
+"into the room. “Fixes” like this typically improve room comfort, but lead"
+" to additional heating and cooling consumption in every other room on the"
+" same air handler. As has been discussed previously, an important part of"
+" the CCSM process is to find and fix problems that lead to energy "
+"inefficiency or to comfort problems. Too often “band-aids” are applied, "
+"and problems are not actually solved."
+msgstr ""
+
+# 7076e00850244b5c9ce1ce031f6b8ef0
+#: ../../source/Chapter10.rst:111
+msgid ""
+"Table A-3. Major Control Settings in the Zachry Engineering Center Before"
+" and After Implementing CCSM"
+msgstr ""
+
+# 4a69191bfc7c429b892ea915a7ef7c45
+#: ../../source/Chapter10.rst:115
+msgid "Pre-CC Control Practice"
+msgstr ""
+
+# 370d70f3b0734aababaf6ae7cb5ac665
+#: ../../source/Chapter10.rst:115
+msgid "Post-CC Control Practice"
+msgstr ""
+
+# 863262044d584857aa2d3ab57b22bac6
+#: ../../source/Chapter10.rst:117
+msgid "Constant at 2.5-3.5 in. H2O"
+msgstr ""
+
+# 9709d3950e754bbbae707dee164171c0
+#: ../../source/Chapter10.rst:117
+msgid "1.0-2.0 in.H2O as Toa increases"
+msgstr ""
+
+# e049a340de6046b0b8cc5480bb3282fd
+#: ../../source/Chapter10.rst:118
+msgid "Cold air temperature"
+msgstr ""
+
+# e49fa62a22814d06824e95805cce1fb2
+#: ../../source/Chapter10.rst:118
+msgid "60°F-55°F as Toa increases"
+msgstr ""
+
+# ce51ba1963ab48baa4dd56918607628f
+#: ../../source/Chapter10.rst:119
+msgid "90°F-70°F as Toa increases"
+msgstr ""
+
+# 3557c499ed974d54ae04209175a516a1
+#: ../../source/Chapter10.rst:120
+msgid "Optimized min/max flow and damper operation"
+msgstr ""
+
+# b3706e2851ab44658604557ebf0774bf
+#: ../../source/Chapter10.rst:121
+msgid "Off when Toa>55°F"
+msgstr ""
+
+# 45270143b89b4e61a80cca6482430338
+#: ../../source/Chapter10.rst:122
+msgid "Pressure depends on flow"
+msgstr ""
+
+# 7331628a99b44c2d85235d78ae7c995e
+#: ../../source/Chapter10.rst:125
+msgid ""
+"Most of the control parameters were optimized to vary as a function of "
+"outside air temperature, Toa, as indicated."
+msgstr ""
+
+# 8e1cc0f42771480eabd53066b5b7e03b
+#: ../../source/Chapter10.rst:127
+#, python-format
+msgid ""
+"Implementing these measures resulted in significant additional savings "
+"beyond the original savings from the VAV retrofit and controls upgrade as"
+" shown in Figures A-5, A-6 and A-7. Figure A-5 shows the motor control "
+"center power consumption as a function of ambient temperature for 1990, "
+"1994 and 1997. It is evident that the minimum fan power has been cut in "
+"half and there has been some reduction even at summer design conditions. "
+"Figure A-7 shows the hot water consumption for 1990, 1994 and 1997, again"
+" as a function of daily average temperature. The retrofit reduced the "
+"annual hot water (HW) consumption for heating to only 16% of the "
+"baseline, so there was little room for further reduction. However, it can"
+" be seen that the CCSM measures further reduced HW consumption, "
+"particularly at low temperatures. The largest savings from the CCSM "
+"measures are seen in the chilled water consumption as shown in Figure "
+"A-6. The largest fractional savings occur at low ambient temperatures, "
+"but the largest absolute savings occur at the highest ambient "
+"temperatures. The annualized consumption values for the baseline, post-"
+"retrofit and post-CCSM conditions are shown in Table A-4. The MCC "
+"consumption for 1997 was 1,209,918 kWh, 74% of the 1994 consumption and "
+"only 41% of the 1990 consumption. On an annual basis, the post-CCSM HW "
+"consumption normalized to 1994 weather was 1,940 MMBtu/yr, a reduction to"
+" only 10% of baseline consumption and a reduction of 34% from the 1994 "
+"consumption. The CCSM measures reduced the post-CCSM chilled water (CHW) "
+"consumption to 17,440 MMBtu, a reduction of 17,820 MMBtu/yr which is "
+"noticeably larger than the 13,930 MMBtu/yr savings produced by the "
+"retrofit. The CHW savings accounted for the largest portion of the CCSM "
+"savings in this cooling dominated climate."
+msgstr ""
+
+# 9525bc1e7bac4e04b04f3739677fcfd8
+#: ../../source/Chapter10.rst:130
+msgid ""
+"Table A-4. Consumption at the Zachry Engineering Center Before and After "
+"Retrofit and After Implementing CCSM Measures"
+msgstr ""
+
+# 3c71d64f0de6441d99cdec1aeadf7f6d
+#: ../../source/Chapter10.rst:134
+msgid "Baseline Consumption"
+msgstr ""
+
+# d23f4d663f2a479b9f3461c78a3a1c73
+#: ../../source/Chapter10.rst:134
+msgid "Post-retrofit"
+msgstr ""
+
+# 281604acf6c44214878448acd6152e47
+#: ../../source/Chapter10.rst:134
+msgid "Post-Retrofit %"
+msgstr ""
+
+# 1c238d9d91ef49059453ea8d1e372e8f
+#: ../../source/Chapter10.rst:134
+msgid "Post-CC"
+msgstr ""
+
+# 8cca46de57614631a5e0207a1e683710
+#: ../../source/Chapter10.rst:136
+msgid "Fan Power"
+msgstr ""
+
+# 80c042b5c70f4e61aea73ab4301a40bd
+#: ../../source/Chapter10.rst:136
+msgid "2,950,000 kWh"
+msgstr ""
+
+# 80e3fdc401984b78a08508631b910a4b
+#: ../../source/Chapter10.rst:136
+msgid "1,640,000 kWh"
+msgstr ""
+
+# 6d1944104ef44d6bbf546503581b99b3
+#: ../../source/Chapter10.rst:136
+msgid "56%"
+msgstr ""
+
+# 271944d4681d4f2989fad659ec32ea6c
+#: ../../source/Chapter10.rst:136
+msgid "1,210,000 kWh"
+msgstr ""
+
+# 0489f29df82e4e5fa5e279ea60d68bc0
+#: ../../source/Chapter10.rst:137
+msgid "45,779 MMBtu"
+msgstr ""
+
+# 3c5e9798934b4243bd087744897040c8
+#: ../../source/Chapter10.rst:137
+msgid "35,258 MMBtu"
+msgstr ""
+
+# 546a697bb36545a2b05c361d6deae244
+# 35c6c36bec0d43d5a3a6d47c48546cdb
+#: ../../source/Chapter10.rst:137 ../../source/Chapter10.rst:460
+msgid "77%"
+msgstr ""
+
+# 335809c6bc1849e3a7f56fe264ee5e21
+#: ../../source/Chapter10.rst:137
+msgid "17,440 MMBtu"
+msgstr ""
+
+# d87a7814187648c2aa435327e90dcbc3
+#: ../../source/Chapter10.rst:138
+msgid "18,766 MMBtu"
+msgstr ""
+
+# 972a52fa6014479080495dc6f7331cf1
+#: ../../source/Chapter10.rst:138
+msgid "2,938 MMBtu"
+msgstr ""
+
+# 1e7b2b1c8e184425b6cac82a4bae5a82
+#: ../../source/Chapter10.rst:138
+msgid "16%"
+msgstr ""
+
+# cb1a13bfd4c74d499406eba6faaf808e
+#: ../../source/Chapter10.rst:138
+msgid "1,943 MMBtu"
+msgstr ""
+
+# e3787afd4cc543878611c3065fe86a3b
+#: ../../source/Chapter10.rst:147
+msgid ""
+"Figure A-5. ZEC Daily Motor Control Center Electricity Consumption for "
+"1990 Before the Retrofit, 1994 After the Retrofit and 1997 After CCSM"
+msgstr ""
+
+# 43d6a3e6ce49403095a8b9b8809b68c9
+#: ../../source/Chapter10.rst:154
+msgid ""
+"Figure A-6. ZEC Daily Chilled Water Consumption for 1990 Before the "
+"Retrofit, 1994 After the Retrofit and 1997 After CCSM"
+msgstr ""
+
+# f4ec96b7151341be8654adadb10df82f
+#: ../../source/Chapter10.rst:161
+msgid ""
+"Figure A-7. ZEC Daily Hot Water Consumption for 1990 Before the Retrofit,"
+" 1994 After the Retrofit and 1997 After CCSM"
+msgstr ""
+
+# 35b2e81410c944e9a230878569e1c61b
+#: ../../source/Chapter10.rst:165
+msgid "Project 2: Brooke Army Medical Center Continuous CommissioningSM"
+msgstr ""
+
+# 0e96954d87a74dd8865c0dfb174382cf
+#: ../../source/Chapter10.rst:167
+msgid ""
+"The Brooke Army Medical Center (BAMC) was a relatively new facility when "
+"the Energy Systems Laboratory (ESL) was hired to commission it. The "
+"facility was operated for the Army by a third-party company, and was "
+"operated in accordance with the original design intent. As has been "
+"discussed throughout this guidebook, the CCSM process looks at the "
+"facility as it is being operated and attempts to optimize the energy-"
+"using systems. This case study illustrates a wide range of CCSM "
+"opportunities."
+msgstr ""
+
+# 4cb2ef74a44b4b69ac23c2e725179617
+#: ../../source/Chapter10.rst:173
+msgid "Figure A-8. The Brooke Army Medical Center (BAMC) in San Antonio, Texas"
+msgstr ""
+
+# fb5e7670c9fd472cbd1c7a6698035a32
+#: ../../source/Chapter10.rst:176
+msgid "**Building and HVAC Systems**"
+msgstr ""
+
+# b76c70883b294626b9aa001245cc4c6e
+#: ../../source/Chapter10.rst:178
+msgid ""
+"The Brooke Army Medical Complex is a large, multi-functional medical "
+"facility. It consists of a medical center (main hospital), a research "
+"building (R) and a central energy plant (CEP). The medical center "
+"consists of four interconnected buildings: the C building (4 stories), M "
+"building (6 stories), A building (6 stories) and B building (8 stories) "
+"with a total floor area of 1,349,707 sq.ft. The research building is a "
+"three-story building with a floor area of 118,886 sq.ft. Figure A-9 "
+"illustrates the layout of typical floors in the complex."
+msgstr ""
+
+# b8bd6dc805284b27b478900e500ddcda
+#: ../../source/Chapter10.rst:180
+msgid ""
+"The complex includes outpatient clinics, a nuclear medicine area, "
+"pharmacy areas, ICUs, CCUs, surgical areas, inpatient beds, emergency "
+"rooms, diagnostic areas, research labs, offices, animal holding areas, a "
+"cafeteria, computer rooms, training classrooms and an auditorium."
+msgstr ""
+
+# e172a62e6c424a0185c81950a30365a3
+#: ../../source/Chapter10.rst:182
+msgid ""
+"The complex is equipped with a central energy plant that has four "
+"1,200-ton water-cooled electric chillers. Four primary pumps (75 hp. "
+"each) are used to pump water through the chillers. Two secondary pumps "
+"(200 hp. each), equipped with VFDs, supply chilled water from the plant "
+"to the building entrances. Fourteen chilled water risers equipped with 28"
+" pumps totaling 557 hp. are used to pump chilled water to all of the AHUs"
+" and small FCUs. All of the chilled water riser pumps are equipped with "
+"VFDs."
+msgstr ""
+
+# 446064558993414290a54bd4ce2df0c6
+#: ../../source/Chapter10.rst:184
+msgid ""
+"This plant includes four natural gas-fired steam boilers. The maximum "
+"output for each boiler is 20 MMBtu/hr. Steam is supplied to each building"
+" where heating water is generated. The steam pressure set point for the "
+"boilers, prior to CCSM, was 125 psi."
+msgstr ""
+
+# 570898d01c644c73bc46b210168fa1d2
+#: ../../source/Chapter10.rst:186
+msgid ""
+"Ninety major AHUs with a total of 2,570 hp. serve the complex. VFDs are "
+"installed in 65 AHUs. The others are constant volume systems. The complex"
+" contains 2,700 terminal boxes, of which 27% are dual duct variable "
+"volume (DDVAV) boxes, 71% are dual duct constant volume (DDCV) boxes, and"
+" 2% are single duct variable volume (SDVAV) boxes. Neither the warehouse "
+"nor the auditorium has terminal boxes."
+msgstr ""
+
+# 70ef8fd048b84db2ba514f426867424a
+#: ../../source/Chapter10.rst:189
+msgid ""
+"The HVAC systems (chillers, boilers, AHUs, pumps, terminal boxes and room"
+" conditions) are controlled by a York DDC control system. Individual "
+"controller-field panels are used for the AHUs and water loops located in "
+"the mechanical rooms, which are also accessed by the central control "
+"system through an interface-ProComm plus and Facility Manager. The "
+"program and parameters can be changed by the central computers or by the "
+"field panels."
+msgstr ""
+
+# cb9d5469d98d44d7af6ca4261323acbf
+#: ../../source/Chapter10.rst:191
+msgid "**Energy Baseline and Metering**"
+msgstr ""
+
+# 7664a476f86b4eecb75ebbd899eeb900
+#: ../../source/Chapter10.rst:193
+msgid ""
+"Once the contract was signed for the commissioning, metering was "
+"installed on the whole facility and the central plant to monitor whole "
+"facility energy consumption. Because the metering was not installed in "
+"time to obtain the pre-CCSM baseline, monthly utility bills were used for"
+" the pre-CCSM energy consumption baseline. The hourly data were used to "
+"determine the post-CCSM consumption. Some short-term loggers were also "
+"installed."
+msgstr ""
+
+# 6054ee843ede4f008f503e4f9141316d
+#: ../../source/Chapter10.rst:196
+msgid "**Building Conditions Before CCSM**"
+msgstr ""
+
+# 27476ce711bd4514956151a191ee9cc1
+#: ../../source/Chapter10.rst:198
+msgid ""
+"A survey of every room was conducted to determine its function and "
+"operating hours as part of the effort to document details of system "
+"operation prior to developing and implementing CCSM measures. The EMCS "
+"was used to implement numerous control measures that increased system "
+"efficiency, including the following:"
+msgstr ""
+
+# 100a7faf324142efad5a04125d9112a2
+#: ../../source/Chapter10.rst:200
+msgid "Hot deck reset control for the AHUs"
+msgstr ""
+
+# bd3a9854485947a4aa91acc826fc2a84
+#: ../../source/Chapter10.rst:201
+msgid "Cold deck reset during unoccupied periods for some units"
+msgstr ""
+
+# 22bf7c9a69604cbbbdfa2e164720b3c8
+#: ../../source/Chapter10.rst:202
+msgid "Static pressure reset between high and low limits for VAV units"
+msgstr ""
+
+# 21a00271c0cf4cfdacd716478e3097e8
+#: ../../source/Chapter10.rst:203
+msgid "Hot water supply temperature control with reset schedule"
+msgstr ""
+
+# 638cbb9a820646c1bcffdf993dbefb5e
+#: ../../source/Chapter10.rst:204
+msgid "VFD control of chilled water pumps with ΔP set point (no reset schedule)"
+msgstr ""
+
+# 537a938cee42413794f5652de0617d12
+#: ../../source/Chapter10.rst:205
+msgid "Box level control and monitoring"
+msgstr ""
+
+# eea860ba6f784a6080ea15b8946a86c0
+#: ../../source/Chapter10.rst:207
+msgid ""
+"The facility was well maintained by the facility operator in accordance "
+"with the original design intent and the complex exhibited above average "
+"energy efficiency for a large hospital."
+msgstr ""
+
+# 458845269329473f9466330f234f8e03
+#: ../../source/Chapter10.rst:209
+msgid "**Commissioning Activities**"
+msgstr ""
+
+# b3658a0aa6f649d497fa163cf6822ec1
+#: ../../source/Chapter10.rst:211
+msgid ""
+"Because the case study hospital is such a multi-functional complex, the "
+"commissioning activities were performed at the terminal box level, AHU "
+"level, loop level and central plant level. Several different types of "
+"improved operating measures and energy solutions were implemented in "
+"different HVAC systems. Each measure will be discussed, starting with the"
+" air handling units."
+msgstr ""
+
+# 3bdcf22da69946e1adc15d5a3baf014d
+#: ../../source/Chapter10.rst:213
+msgid "**Optimizing AHU Operation**"
+msgstr ""
+
+# 2d69636491784c4887f00a5a086b8337
+#: ../../source/Chapter10.rst:215
+msgid ""
+"A total of 54 VAV AHUs serve the clinic areas, diagnostic areas, "
+"pharmacy, research laboratory, food services areas, offices, lobby areas,"
+" maintenance areas and storage rooms. The cold deck (CD) temperature set "
+"points were operated with a constant set point, ranging from 55˚ to 57˚F,"
+" and were occasionally adjusted by the operator during occupied periods. "
+"The hot deck (HD) temperature set points were modulated between a low "
+"limit and a high limit, according to the box requirements. If there is no"
+" call for heat from the box, the hot deck is maintained at the low limit."
+" If there is a call for heat from a box, the hot deck will be increased "
+"up to the high limit until there is no longer a call for heating."
+msgstr ""
+
+# 6b7a52857f504eee8239d76673b01d3e
+#: ../../source/Chapter10.rst:217
+msgid ""
+"The actual measured results from the site measurements and short-term "
+"data loggers showed that HD temperatures ranged from 75˚F to 93˚F during "
+"the hot summer. The static pressure set points were modulated between the"
+" low and high limits according to the box conditions. The supply fan "
+"ranged from 55 Hz to 60 Hz for different AHUs during the site visit "
+"period. Table A-5 shows the control schedules before commissioning."
+msgstr ""
+
+# efd6898ec1a84a2791f34f79a2e32059
+#: ../../source/Chapter10.rst:219
+msgid ""
+"Table A-5. Typical Set Points for the HD and Static Pressure Before "
+"Commissioning"
+msgstr ""
+
+# 4935861c65c341a4a2ed9152689a2911
+# d5b7a17bd86c49bc949f5f9d479bb56a
+# c2e473170d95405d80763fc09bd2d7fe
+# 6fcbc2f0d76e460f8c4dccfef0cfaf85
+# ed44fa5e50f442e686b201523e4e7056
+# 74ac3d7f60034cd69bab2fe937934b69
+#: ../../source/Chapter10.rst:223 ../../source/Chapter10.rst:235
+#: ../../source/Chapter10.rst:257 ../../source/Chapter10.rst:283
+#: ../../source/Chapter10.rst:295 ../../source/Chapter10.rst:306
+msgid "Limit"
+msgstr ""
+
+# 1685cb55fb304b7da96d2a33b2f97b9a
+# 4ab76ee5be6d45a7a2df4306574bf3b3
+# b4c6f309a6724b429b4c4a9ac7814971
+# d5d0857e956346bb80b677be11e6b615
+# c63ba7a1c7d44a3585d2a182bd3e5841
+# 6b0dfb2501e8482cba47ebe6d0d03b25
+# dc9f178012f64515b465b8667b0881d7
+# ecabfdb193884b12a01df9c499a25f96
+#: ../../source/Chapter10.rst:223 ../../source/Chapter10.rst:235
+#: ../../source/Chapter10.rst:246 ../../source/Chapter10.rst:283
+#: ../../source/Chapter10.rst:295 ../../source/Chapter10.rst:325
+#: ../../source/Chapter10.rst:356 ../../source/Chapter10.rst:373
+msgid "HD Set Point"
+msgstr ""
+
+# 38692a359e8e4cfab25549b0c794a4ab
+# 1d869cc082624e7a891148ea66cf9ef9
+#: ../../source/Chapter10.rst:223 ../../source/Chapter10.rst:325
+msgid "Static Pressure Set Point"
+msgstr ""
+
+# 8cbd94acfe8b43afa9196a20f6cb08f7
+# 0f631353c9cf4872a520fcc6b4f4d04b
+# 92c15edd21f0428d92139368ecf71e50
+# 75fcec2935614b209f623ebe6c721329
+# a4cb60b9ab514f2f8d77f844ee4f7d4d
+# 6920ccaeed5e4eaca87f446cc709aef9
+#: ../../source/Chapter10.rst:225 ../../source/Chapter10.rst:237
+#: ../../source/Chapter10.rst:261 ../../source/Chapter10.rst:285
+#: ../../source/Chapter10.rst:297 ../../source/Chapter10.rst:308
+msgid "High limit"
+msgstr ""
+
+# 15199f619aba4edf988201e19f9621e2
+#: ../../source/Chapter10.rst:225
+msgid "110˚F if Toa<30˚F, 90˚F if Toa>70˚"
+msgstr ""
+
+# d872a5e0c97542a1a161ae97d471e76d
+#: ../../source/Chapter10.rst:225
+msgid "1.8” H20 (fixed value)"
+msgstr ""
+
+# 2cee7c5af0e14623aba0733fff7c8f2f
+# 5894cffa3b804d858e4bddbd16589628
+# 9b69647c045b4fba825c027e11129e1f
+# 41e2d4edbcee47d5bacef5ed9f1a72c2
+# 3c9c7929593440b88bc0d75d14618346
+# 69160d9470434d06a8b0827145b944e1
+#: ../../source/Chapter10.rst:226 ../../source/Chapter10.rst:238
+#: ../../source/Chapter10.rst:262 ../../source/Chapter10.rst:286
+#: ../../source/Chapter10.rst:298 ../../source/Chapter10.rst:309
+msgid "Low limit"
+msgstr ""
+
+# 950185d6ede3403883367a4a9bb62bf3
+# a4ed6ac7786c4d8a84ab260e6c82157c
+#: ../../source/Chapter10.rst:226 ../../source/Chapter10.rst:286
+msgid "90˚F if Toa<30˚F, 70˚F if Toa>70˚F"
+msgstr ""
+
+# 91230469bf2a4cc88553652c9420f2fe
+#: ../../source/Chapter10.rst:226
+msgid "1.4” H20 (fixed value)"
+msgstr ""
+
+# a91768303dd446e28c971d074baa0609
+#: ../../source/Chapter10.rst:229
+msgid ""
+"The CCSM investigation found that the high hot deck temperature caused "
+"excessive heating and cooling consumption and hot calls during the "
+"summer. The cold deck set points, with a reset schedule, can better "
+"satisfy the building load under different weather conditions and reduce "
+"simultaneous cooling and heating consumption during winter conditions. "
+"Measurements of the static pressures indicated the static pressures could"
+" be much lower than the original values. The higher static pressures "
+"caused more fan electricity consumption and excess cold and hot air to "
+"the building. Based on measurements and calculations, the improved "
+"commissioning control schedules are presented in Tables A-6, A-7, and "
+"A-8."
+msgstr ""
+
+# 3ea8b93c2951492d9b6707eed706f370
+#: ../../source/Chapter10.rst:231
+msgid "Table A-6. Post-CCSM HD Temperature Reset Schedules for DDVAV AHUs"
+msgstr ""
+
+# 7fe25b6b2bbd4e04a54556f7c999d522
+# 8b52853ecf9e49ba8dc18ee9dfa66703
+# 665319c86f914bb5a46ba477f0ceaf5a
+#: ../../source/Chapter10.rst:237 ../../source/Chapter10.rst:248
+#: ../../source/Chapter10.rst:297
+msgid "94-98˚F if Toa<30˚F, 75˚F if Toa>78˚F"
+msgstr ""
+
+# 807416821bd44059b31ea276e0601d60
+# 53aa349c668a4659a09d52522ac13aed
+#: ../../source/Chapter10.rst:238 ../../source/Chapter10.rst:249
+msgid "74-76˚F if Toa<30˚F, 70˚F if Toa>78˚F"
+msgstr ""
+
+# f7f55fefff1c47ca810ceeade02070b0
+#: ../../source/Chapter10.rst:242
+msgid "Table A-7. Post-CCSM CD Temperature Reset Schedules for DDVAV AHUs"
+msgstr ""
+
+# 97bb074a3da045c1b440510e5f4343bf
+# 894bf19a4f6546d8947d3be4d8ad7724
+# 925bc3024dd341138e0cf45eab8e5180
+# 0ca29803847041239c817a8f77f2fbc0
+# 22548c316de8414d870729ca33c68b91
+# a8ecac4aceab4c1892959941d1705762
+#: ../../source/Chapter10.rst:246 ../../source/Chapter10.rst:356
+#: ../../source/Chapter10.rst:373 ../../source/Chapter10.rst:390
+#: ../../source/Chapter10.rst:453
+msgid "Time"
+msgstr ""
+
+# de90cd79b6a14d608545f679d108ba2b
+#: ../../source/Chapter10.rst:248
+msgid "Occupied period"
+msgstr ""
+
+# 98752aeb855942b78a81af4b37118034
+#: ../../source/Chapter10.rst:249
+msgid "Unoccupied period"
+msgstr ""
+
+# 7cb7a9c5e62c4088b1beff8f55d065a5
+#: ../../source/Chapter10.rst:253
+msgid "Table A-8. Post-CCSM Static Pressure Set Point Limits for DDVAV AHUs"
+msgstr ""
+
+# a6db16e3adec412889311472b46f1b55
+#: ../../source/Chapter10.rst:257
+msgid "C building"
+msgstr ""
+
+# 2dc07e67c69f4381bef16ce9d1647e6b
+#: ../../source/Chapter10.rst:257
+msgid "M building"
+msgstr ""
+
+# 7c92e81e19b34b60bf77e065f92224f7
+#: ../../source/Chapter10.rst:257
+msgid "A building"
+msgstr ""
+
+# 6b5d46fd8b9046cb943da060798b1708
+#: ../../source/Chapter10.rst:257
+msgid "B building"
+msgstr ""
+
+# c3031134eec24e4ba1e81074c7c7194a
+#: ../../source/Chapter10.rst:257
+msgid "R building"
+msgstr ""
+
+# c0d6624f8e424a5ba351b8db42a672d6
+# 8ee4a4feea124b0bbd09247b8b3da3db
+# 377d1669d94947b889855fde9b37808d
+# d603dcc761eb4133b13499f59e7c0924
+# 0eba7a0dbb054736b1f9db707bede328
+#: ../../source/Chapter10.rst:259
+msgid "Inch H20"
+msgstr ""
+
+# 0c3ff1a0ef66454db645b8ae9badd9d5
+#: ../../source/Chapter10.rst:261
+msgid "0.9-1.3"
+msgstr ""
+
+# 4108f67f56ba4b31a4af425108cff294
+# 0d20be0ffb9e4389ae510c272006abe2
+# 40200b1f5f4b4236986629cf9c83d420
+#: ../../source/Chapter10.rst:261
+msgid "1.0-1.8"
+msgstr ""
+
+# d549af91a4104a9b8d178c5664049322
+#: ../../source/Chapter10.rst:261
+msgid "1.5-1.8"
+msgstr ""
+
+# ac01346b056a44309d1c8ba0f8e3b516
+# 7d7fa6c2a6a7412fb5a7001322c2d59c
+# 88cb7548b3aa41d6a4d0f0d19e35f62d
+# f8511134441943fa9ea74b04f3d1a917
+# 1b29c147294942f291438e3c14790730
+#: ../../source/Chapter10.rst:262 ../../source/Chapter10.rst:393
+msgid "0.5"
+msgstr ""
+
+# 8a31f99741f54351a2b9751c47f9b04d
+# e6dfb3d6790340e7a6f8ecaab78ed464
+#: ../../source/Chapter10.rst:262
+msgid "0.5-0.7"
+msgstr ""
+
+# 9387abc660c840d28fd0aa015b21d2ec
+#: ../../source/Chapter10.rst:265
+msgid ""
+"Note: The static pressure set point limits are determined based on the "
+"duct condition, box condition, damper condition, and special resistance "
+"factors such as HEPA filters."
+msgstr ""
+
+# 7f7363d4381b4afdbfa9ea06bc1b25b7
+#: ../../source/Chapter10.rst:267
+msgid ""
+"Prior to CCSM, the preheat set points were 2-5 degrees below the cold "
+"deck set points, causing simultaneous heating and cooling if the "
+"temperature sensors had an error. The new preheat set points after CCSM "
+"are 40˚F for all the AHUs."
+msgstr ""
+
+# f58f23352a3645769b79a06875d08698
+#: ../../source/Chapter10.rst:269
+msgid ""
+"Before commissioning, 12 AHUs in the C building had 2 hours of shutdown "
+"at night. The control philosophy allowed the indoor temperature to swing "
+"from 65˚F to 85˚F. In order to reduce the swing in the indoor air "
+"conditions, the AHUs are now run 24 hours a day after the commissioning. "
+"The continuous (24 hours) operation provides a constant room condition. "
+"The actual energy consumption did not rise significantly since the "
+"envelope loads were small for this section of building."
+msgstr ""
+
+# 6d954d6b051a439eb25684d28efd4709
+#: ../../source/Chapter10.rst:271
+msgid ""
+"As one of the commissioning measures during unoccupied periods, in order "
+"to reduce the outside air intake after hours, the relief air dampers were"
+" closed for all the units. To maintain the building pressure, some of the"
+" exhaust fans were shut down as well."
+msgstr ""
+
+# a951d6fb590d47599c697dc32db0039b
+#: ../../source/Chapter10.rst:273
+msgid ""
+"The optimized operation schedules were tested and implemented in all 54 "
+"VAV AHUs. The commissioning team also performed troubleshooting and fine-"
+"tuning on the AHUs and associated terminal boxes. The indoor conditions "
+"were improved and the fan power consumption, as well as thermal energy "
+"consumption, was reduced significantly."
+msgstr ""
+
+# 71689e17378b4c9b8bdb3c96027b550a
+#: ../../source/Chapter10.rst:275
+msgid ""
+"A total of nine constant-volume AHUs serve the diagnostic areas, "
+"pharmacy, offices, classroom areas and health promotion center. Seven "
+"constant-volume AHUs serve inpatient areas, which have special "
+"requirements such as indoor temperatures for burn patients."
+msgstr ""
+
+# 0f7b78d962894040b1d8da86aca9748d
+#: ../../source/Chapter10.rst:277
+msgid ""
+"The cold deck temperature set point was operated with a constant set "
+"point, ranging from 55˚F to 57˚F, and was occasionally adjusted by the "
+"operator during occupied periods. The hot deck (HD) temperature set "
+"points were modulated between the low limit and the high limit according "
+"to the terminal box requirements. The limits were almost the same for the"
+" AHUs and can be seen in Table A-9."
+msgstr ""
+
+# c967e34350d44f6c8beb25fa21c0f287
+#: ../../source/Chapter10.rst:279
+msgid "Table A-9. Typical Set Points for HD Before Commissioning"
+msgstr ""
+
+# d5b890b81a98427490c4143a7edf6157
+#: ../../source/Chapter10.rst:285
+msgid "110˚F if Toa<30˚F, 90˚F if Toa>70˚F"
+msgstr ""
+
+# 04ad0943369e467999c01a62ec898e36
+#: ../../source/Chapter10.rst:289
+#, python-format
+msgid ""
+"The outside air intakes were constant day and night. All dampers stayed "
+"in the same position day and night. The relief and return air dampers "
+"were 100% open for all units. The post-commissioning control schedules "
+"are presented in Tables A-10 and A-11."
+msgstr ""
+
+# c1de14001bd041ddb9caea3ed1bb58a1
+#: ../../source/Chapter10.rst:291
+msgid "Table A-10. Post-CCSM HD Temperature Reset Schedules for DDCV AHUs"
+msgstr ""
+
+# 8d93a0e8736345d699dc08d85ad47d5f
+#: ../../source/Chapter10.rst:298
+msgid "74˚F if Toa<30˚F, 70˚F if Toa>78˚F"
+msgstr ""
+
+# ab364c03bf87476c91387d468cd0b532
+#: ../../source/Chapter10.rst:302
+msgid "Table A-11. Post-CCSM CD Temperature Reset Schedules for DDCV AHUs"
+msgstr ""
+
+# 22524b9b82e4426f9581bd7b8330d673
+# 6f6ab3e0cf674c35a4478ea9fbdf82ce
+#: ../../source/Chapter10.rst:306 ../../source/Chapter10.rst:325
+msgid "CD Set Point"
+msgstr ""
+
+# 476d2a2fca8a46e98e59942af549107a
+#: ../../source/Chapter10.rst:308
+msgid "60˚F if Toa<50˚F, 56˚F if Toa>80˚F"
+msgstr ""
+
+# 0480470ab68a4abaad1d95f42d402d52
+#: ../../source/Chapter10.rst:309
+msgid "Keep existing unoccupied schedule"
+msgstr ""
+
+# 8fa6af9e381b4375bae22720513bf4bc
+# 8fbd2a60962d40f9adc4075194ea2311
+#: ../../source/Chapter10.rst:311 ../../source/Chapter10.rst:381
+msgid "80˚F if Tret<55˚F, 55˚F if Tret>80˚F"
+msgstr ""
+
+# 22783d3feb824771bd6840d636068de5
+#: ../../source/Chapter10.rst:314
+msgid ""
+"The new preheat set point after commissioning was 40˚F for all the AHUs, "
+"and the relief air dampers were closed for all the units during "
+"unoccupied periods. Some of the exhaust fans were shut down to maintain "
+"positive building pressure."
+msgstr ""
+
+# ec444d669c6741b08cd1cb21d6c303c0
+#: ../../source/Chapter10.rst:316
+msgid ""
+"Due to special inpatient requirements, there was no modification for "
+"seven AHUs."
+msgstr ""
+
+# 271cd3450283453fa79ba860e7c68969
+#: ../../source/Chapter10.rst:318
+msgid ""
+"Two unique and large VAV multi-zone AHUs serve large storage areas and "
+"newly renovated office areas in the C building. The operation schedules "
+"before the commissioning can be seen in Table A-12. The outside air and "
+"relief dampers were always open, and the preheat set point was 2-5˚F "
+"lower than the CD temperature set points. There are no terminal boxes for"
+" the system, only supply ducts."
+msgstr ""
+
+# e6ab576f1e804d99b9819324facfa2b9
+#: ../../source/Chapter10.rst:321
+msgid ""
+"Table A-12. Detailed Schedules for HD, CD and Static Pressure Before "
+"Commissioning"
+msgstr ""
+
+# c3757f09b1014036b78a7e26828349c7
+#: ../../source/Chapter10.rst:325
+msgid "Item"
+msgstr ""
+
+# 9a0d0a7148264744ba2d1d95398ffbd6
+#: ../../source/Chapter10.rst:327
+msgid "Occupied"
+msgstr ""
+
+# a4936901e0c64e10b7481f1214b8c7b2
+# eb848a3276dd4de183138542dca6b15c
+#: ../../source/Chapter10.rst:327 ../../source/Chapter10.rst:331
+msgid "90˚F to 100˚F if Toa<30˚F,"
+msgstr ""
+
+# a90860f444394e56a3d859e012997439
+# f6ec31ed3762407fa4866956e5e980d3
+#: ../../source/Chapter10.rst:329 ../../source/Chapter10.rst:333
+msgid "70˚F if Toa>70˚F"
+msgstr ""
+
+# 3dd2e307cab04574b0bb673fc1b25777
+#: ../../source/Chapter10.rst:327
+msgid "56 to 57˚F"
+msgstr ""
+
+# daf56ec3861346f5b4906374e8bc21c5
+# 36b27a12b1444fb79a653fb1d32c9fc1
+#: ../../source/Chapter10.rst:327 ../../source/Chapter10.rst:331
+msgid "0.9” H2O"
+msgstr ""
+
+# c2aa8e1a6bb342d6b58df843551624c7
+#: ../../source/Chapter10.rst:331
+msgid "Unoccupied"
+msgstr ""
+
+# 37613cb678994421b6d0df75a6f405d9
+#: ../../source/Chapter10.rst:331
+msgid "80˚F if Tret<55˚F,"
+msgstr ""
+
+# 22ae925845074f119c1bc507b68e27d2
+#: ../../source/Chapter10.rst:333
+msgid "57˚F if Tret>80˚F"
+msgstr ""
+
+# 70b867773fc241b6ad083c51f66a1baf
+#: ../../source/Chapter10.rst:337
+msgid ""
+"Through field measurements and analysis, the following opportunities to "
+"improve the operation of the two VAV multi-zone AHUs were identified:"
+msgstr ""
+
+# 2a86e403cec44b2e87fb6b9625cef1bc
+#: ../../source/Chapter10.rst:339
+msgid "Balance zone air and determine new static pressure set points for VFDs"
+msgstr ""
+
+# 3cbf12c2e3774ea39dcc147b4c14f7ef
+#: ../../source/Chapter10.rst:340
+msgid "Optimize the cold deck temperature set points with reset schedules"
+msgstr ""
+
+# bb36231870634121ad434e394c2e7c18
+#: ../../source/Chapter10.rst:341
+msgid "Optimize the hot deck temperature reset schedules"
+msgstr ""
+
+# 97f67bd2c3684b009d7b666b4766a931
+#: ../../source/Chapter10.rst:342
+msgid "Control outside air intake, relief damper during unoccupied periods"
+msgstr ""
+
+# 0510bc993a684ee5845fe3dfe4dcfb97
+#: ../../source/Chapter10.rst:343
+msgid "Optimize time schedule for fans to improve room conditions"
+msgstr ""
+
+# d3a04abbd9334432b3deae1b0328b06c
+#: ../../source/Chapter10.rst:344
+msgid "Improve the preheat temperature set point to avoid unnecessary preheating"
+msgstr ""
+
+# 6a8dbc464b7745f194576045e2072999
+#: ../../source/Chapter10.rst:346
+msgid "The new operation schedules are presented in Tables A-13, A-14, and A-15."
+msgstr ""
+
+# 6e7878df222e40aeb2b29c6d7f992709
+#: ../../source/Chapter10.rst:348
+msgid "**Optimization of Terminal Box Operation**"
+msgstr ""
+
+# a53b822c824449af9936ce79d280a48d
+#: ../../source/Chapter10.rst:350
+#, python-format
+msgid ""
+"A total of 2,700 terminal boxes supplied conditioned air to the rooms. "
+"27% are DDVAV boxes, 71% are DDCV boxes, and 2% are SDVAV boxes. The "
+"original control logic of the DDVAV boxes was the same as the constant "
+"volume terminal box operation, but different cfm settings were used at "
+"minimum and maximum conditions. The minimum air flow cfm settings for the"
+" VAV boxes were the same both day and night and ranged from 30% to 90% "
+"with an average of 60% of maximum air flow for the box. This schedule "
+"consumes excess heating and cooling air under normal room load "
+"conditions. Also, the heating capacity was limited for some boxes due to "
+"the existing box design setting. In some cases, the boxes supplied a "
+"limited amount of hot air, even in the full heating mode, even though the"
+" hot duct of the boxes could allow more flow through. To meet the minimum"
+" air flow requirements, the boxes had to use more cold air than was "
+"necessary."
+msgstr ""
+
+# 2cde2c3d428b40c0a5007d0ef55707c9
+#: ../../source/Chapter10.rst:352
+msgid "Table A-13. Post-CCSM HD Reset Schedules"
+msgstr ""
+
+# b0f19ee60ca74e36a4720acb090c09e7
+# e0d99c5ecadc4bcdb5850645e731a7a8
+# 0ffcb305a68d467abfb6041c9372152d
+#: ../../source/Chapter10.rst:358 ../../source/Chapter10.rst:375
+#: ../../source/Chapter10.rst:392
+msgid "Occupied periods (5:00 to 18:00)"
+msgstr ""
+
+# 433d67fff8c94d2f8e781b7e39c6c4a1
+#: ../../source/Chapter10.rst:358
+msgid "76˚F if Min(damper%z1;damper%z2)<10%,"
+msgstr ""
+
+# ed94b0570dca45dd83d675b3ba332018
+#: ../../source/Chapter10.rst:360
+msgid "70˚F if Min(damper%z1;damper%2)>50%"
+msgstr ""
+
+# 575b30c43da74ea592da8c33048eb8f5
+# ade36e4f464d4c6cb093da3f161b963c
+# 6ea0766988364093bc2b3f409d434ad7
+#: ../../source/Chapter10.rst:362 ../../source/Chapter10.rst:379
+#: ../../source/Chapter10.rst:393
+msgid "Unoccupied periods (18:00 to 5:00)"
+msgstr ""
+
+# 28a8d2fd94ed47a68aa2cec53f707fc1
+#: ../../source/Chapter10.rst:362
+msgid "72˚F if Min(damper%z1;damper%z2)<10%,"
+msgstr ""
+
+# 58561a4828324b08986f1f86184b3c4f
+#: ../../source/Chapter10.rst:364
+msgid "68˚F if Min(damper%z1;damper%z2)>50%"
+msgstr ""
+
+# 9a7f4c008abb4816a16c14a47e8bc37b
+#: ../../source/Chapter10.rst:367
+msgid ""
+"Note: damper%Z1:zone 1 damper control output. 0% means full open for the "
+"hot damper and full closed for the cold damper; 100% means full open for "
+"cold damper and full closed for hot damper."
+msgstr ""
+
+# e534c065b52c4ebb981d1eea29432ce1
+#: ../../source/Chapter10.rst:369
+msgid "Table A-14. Post-CCSM CD Set Points"
+msgstr ""
+
+# 41c89d60f2634519899229f8ffd7f48e
+#: ../../source/Chapter10.rst:375
+msgid "57˚F if Max(damper%z1;damper%z2)>90%,"
+msgstr ""
+
+# 36d37f8419bf48ea9a4ca309d32e7221
+#: ../../source/Chapter10.rst:377
+msgid "60˚F if Max(damper%z1;damper%z2)<50%"
+msgstr ""
+
+# cbe6173ec4bc4a8f8e82dcaa03ffb086
+#: ../../source/Chapter10.rst:379
+msgid "Keep existing reset schedule"
+msgstr ""
+
+# 248eca27ab364fec85f1e13deae46d2e
+#: ../../source/Chapter10.rst:384
+msgid ""
+"Note: damper%z1:zone 1 damper control output. 0% means full open for the "
+"hot damper and full closed for the cold damper; 100% means full open for "
+"cold damper and full closed for hot damper"
+msgstr ""
+
+# 0445e6ce864b4ffc8880835152d34458
+#: ../../source/Chapter10.rst:386
+msgid "Table A-15. Post-CCSM State Pressure Set Points"
+msgstr ""
+
+# a2784408ee0649cea6a7f5f2922878ba
+#: ../../source/Chapter10.rst:390
+msgid "LC11"
+msgstr ""
+
+# 3a2740a3117d46bbba61c739ed75b51e
+#: ../../source/Chapter10.rst:390
+msgid "LC12"
+msgstr ""
+
+# b7e570c65d6f4be792b221cfb8322cba
+#: ../../source/Chapter10.rst:392
+msgid "0.8"
+msgstr ""
+
+# d0cf10997d1847be8297ff54e77c420e
+#: ../../source/Chapter10.rst:392
+msgid "0.9"
+msgstr ""
+
+# 233dea62420242e09a19658bed2dcbf9
+#: ../../source/Chapter10.rst:396
+msgid ""
+"The preheat set point changed to 40°F for the two units. The OA and "
+"relief dampers will be closed during unoccupied periods."
+msgstr ""
+
+# 19957d1cc97044349d3424c790a82a37
+#: ../../source/Chapter10.rst:398
+#, python-format
+msgid ""
+"New control logic was developed that made the box run on a VAV operation "
+"schedule. As a result, simultaneous cooling and heating were reduced "
+"significantly during normal load conditions for the box. The hot air "
+"capacity was increased by an average of 30% in the full heating mode. The"
+" minimum supply air flow requirement was also satisfied."
+msgstr ""
+
+# d413cfea5d2c4b7faacaadb9470c870a
+#: ../../source/Chapter10.rst:400
+msgid "**Unoccupied Period Setback for the VAV Terminal Boxes**"
+msgstr ""
+
+# 9ab9fd18697d4fb6a91fe2a7b812fe82
+# 0803883a1d384b4c8f1c03cfa3ab5a00
+#: ../../source/Chapter10.rst:402 ../../source/Chapter10.rst:411
+msgid "The setback control is as follows:"
+msgstr ""
+
+# 332e11d59f2c467499cfbc68e755fd2d
+#: ../../source/Chapter10.rst:404
+msgid ""
+"Keep the room temperature set points the same as occupied periods (BAMC "
+"request)"
+msgstr ""
+
+# 43f479bc056840b094e045e7091ee974
+#: ../../source/Chapter10.rst:406
+msgid ""
+"Reduce total flow minimum value to 0. The box will provide enough air "
+"when the load increases."
+msgstr ""
+
+# 91342b47c1d240dcbd49647edfa00203
+#: ../../source/Chapter10.rst:409
+msgid "**Unoccupied Period Setback for the CV Terminal Boxes**"
+msgstr ""
+
+# a8490c6cdcd24df58d98141b174fc391
+#: ../../source/Chapter10.rst:413
+msgid ""
+"Keep the room temperature set points the same as occupied periods based "
+"on existing set points (BAMC request)"
+msgstr ""
+
+# 07577ebd521b41618e80589c96605a4b
+#: ../../source/Chapter10.rst:415
+#, python-format
+msgid ""
+"Reduce total flow to a percentage of the design flow. The percentage is "
+"determined based on the building pressure analysis. Generally, the "
+"percentage is from 30% to 70% for different AHUs."
+msgstr ""
+
+# 2f69de856cdd4427bbd52527d82ffac8
+#: ../../source/Chapter10.rst:419
+msgid "**Troubleshooting**"
+msgstr ""
+
+# e61ad5034d5742faa10de8cd0903b521
+#: ../../source/Chapter10.rst:421
+msgid ""
+"During the commissioning period, it was found that some terminal boxes "
+"could not provide the required air flow before or after the control "
+"program modification. The major reason was higher flow resistance from "
+"the flexible and kinked ducts to the terminal boxes. The CCSM engineers "
+"performed detailed checks for every box on the computer first, then "
+"conducted field measurements for all the troublesome boxes. Specific "
+"problems were identified for approximately 200 boxes. The operation and "
+"maintenance personnel fixed the problems following the recommendations."
+msgstr ""
+
+# 08a4e3d02e824fe0aa6256c8fc3c7c78
+#: ../../source/Chapter10.rst:423
+msgid "**Loop Commissioning**"
+msgstr ""
+
+# a5244e1d92f844f5a7efba822bfb4707
+#: ../../source/Chapter10.rst:425
+msgid ""
+"Fourteen chilled water risers equipped with 28 pumps provided chilled "
+"water to the entire complex. One pump per riser was needed; the second "
+"pump was standby. During the commissioning audit phase, the following "
+"were observed:"
+msgstr ""
+
+# 1fc2f07bf66a43bc8be5059abc5fef00
+#: ../../source/Chapter10.rst:427
+msgid ""
+"All the riser pumps were equipped with VFDs and were running from 41 Hz "
+"to 60 Hz"
+msgstr ""
+
+# 8c2f6ebcedcc4831a538e9c250f68989
+#: ../../source/Chapter10.rst:429
+#, python-format
+msgid ""
+"All the manual balancing valves on the risers were balanced 30% to 60% "
+"open"
+msgstr ""
+
+# 3d7ed7b865af454589ea3eacab69bbdc
+#: ../../source/Chapter10.rst:430
+msgid ""
+"The ΔP sensor for each riser was located 10 to 20 feet from the far-end "
+"coil of the AHU on the top floor"
+msgstr ""
+
+# bbd8c8497e514a0c8259abcbf9478d1a
+#: ../../source/Chapter10.rst:432
+msgid ""
+"Differential pressure set points for each riser ranged from 13 psi to 26 "
+"psi"
+msgstr ""
+
+# 0b6b0379bfb14bd8b3175596289d4ddd
+#: ../../source/Chapter10.rst:433
+msgid "The return loop has no control valve"
+msgstr ""
+
+# 5fc3038988ae4fd996dd2f6d88338b37
+#: ../../source/Chapter10.rst:434
+#, python-format
+msgid ""
+"Although most of the cold deck temperatures were holding well, the "
+"cooling coils on 13 AHUs were 100% open but could not maintain cold deck "
+"temperature set points"
+msgstr ""
+
+# 725b2d5b842b4a4e87521a37303635a2
+#: ../../source/Chapter10.rst:438
+msgid "**Commissioning measures**"
+msgstr ""
+
+# b09f707adbbe4a9389a8d944c7308042
+#: ../../source/Chapter10.rst:440
+msgid ""
+"Since the risers were equipped with VFDs, traditional manual balancing "
+"techniques were not appropriate. All the risers were rebalanced initially"
+" by opening all of the manual balancing valves. The actual pressure "
+"requirements for each riser were measured. It was determined that the ΔP "
+"for each riser could be reduced significantly."
+msgstr ""
+
+# 1b90dffeb2c54431a0fa04a9f4234311
+#: ../../source/Chapter10.rst:443
+msgid ""
+"Table A-16 summarizes the riser conditions before and after the "
+"commissioning and the horsepower savings for each riser pump."
+msgstr ""
+
+# 06db5b83b09748b9a5856642ee50e3bd
+#: ../../source/Chapter10.rst:445
+msgid ""
+"After balancing, there was better cold deck temperature control of the "
+"AHUs, as well as a significant reduction in pumping requirements."
+msgstr ""
+
+# 140bb8c800df4a9487ec147b6ab9888a
+#: ../../source/Chapter10.rst:447
+msgid ""
+"Table A-16. Summary of Chilled Water System Condition Before And After "
+"Reset And New Set Points"
+msgstr ""
+
+# 06adfeef256449f2a26b39fdfbbb5da2
+#: ../../source/Chapter10.rst:451
+msgid "Riser"
+msgstr ""
+
+# fbf4351a590e46a9a071148bff6852be
+#: ../../source/Chapter10.rst:451
+msgid "Before Reset"
+msgstr ""
+
+# 50986a7af29946ed997577966679c2ea
+#: ../../source/Chapter10.rst:451
+msgid "After DP Reset"
+msgstr ""
+
+# 9d08ce415c7640e4ae3eaf1d1c98bbf4
+#: ../../source/Chapter10.rst:451
+#, python-format
+msgid "% of rated HP"
+msgstr ""
+
+# 0b2a3a74a4614cc6a786228cd34d9670
+#: ../../source/Chapter10.rst:451
+msgid "Rated HP"
+msgstr ""
+
+# 530193654ed24663880a6ad3e330ecca
+#: ../../source/Chapter10.rst:453
+msgid "Name"
+msgstr ""
+
+# 45f4b7baa77b4088801e24537bf1a705
+# 4c96497fd8874932a0061143df0b8347
+#: ../../source/Chapter10.rst:453
+msgid "DP set"
+msgstr ""
+
+# 5b38a54a07b6470188dc5edb3513dfe1
+# 8361912c6f3947c1a123f5bc0adda3a5
+#: ../../source/Chapter10.rst:455
+msgid "point"
+msgstr ""
+
+# fe929778a0c64f4eaa9b1c21b35167a6
+# af3574119cf74f01ab2a5b19858790e9
+#: ../../source/Chapter10.rst:453
+msgid "DP"
+msgstr ""
+
+# 640301c74ce54a109d7ca50238330ee2
+# daa1085492384f199546e13c5be3e36a
+#: ../../source/Chapter10.rst:455
+msgid "meas."
+msgstr ""
+
+# f7b4d28e249b4fb9af460f44f0796b5e
+# 4e6d266de3ba407a95b447aabea7317f
+#: ../../source/Chapter10.rst:453
+msgid "Pump"
+msgstr ""
+
+# 182468b202804fa2ae2239e41139e7b0
+# c86e70df24b4438d9f6c18a0a96e6068
+#: ../../source/Chapter10.rst:455
+msgid "Hz"
+msgstr ""
+
+# e3c0815449d04abea4c769cdc0e4d496
+#: ../../source/Chapter10.rst:457
+msgid "C11/C12"
+msgstr ""
+
+# 9aef90394c564e67b7be35452de1ec15
+# 8ab979146782447fb64e3f9bed2fc92e
+#: ../../source/Chapter10.rst:457 ../../source/Chapter10.rst:464
+msgid "13"
+msgstr ""
+
+# da26307826b1403e8008e2d1beb74101
+# b41ca8198fea4c6c904c1c577edc8baa
+# 88d29a20a2b64a81913312ed37a4346d
+#: ../../source/Chapter10.rst:457 ../../source/Chapter10.rst:467
+#: ../../source/Chapter10.rst:468
+msgid "14:00"
+msgstr ""
+
+# 4481d6d157a0489ab7e811ecf7673d73
+# f477a67cbaf04a7db49ac3ae8f1a89be
+#: ../../source/Chapter10.rst:457 ../../source/Chapter10.rst:464
+msgid "13.1"
+msgstr ""
+
+# e227018b2bb34deea296123167659aac
+#: ../../source/Chapter10.rst:457
+msgid "41.3"
+msgstr ""
+
+# 51d666801cd94c6bb080f78eac29e2df
+#: ../../source/Chapter10.rst:457
+msgid "6"
+msgstr ""
+
+# 4a507f6e7f4343cc83bc79616eb68690
+#: ../../source/Chapter10.rst:457
+msgid "10:20"
+msgstr ""
+
+# a0af4ebe200540918dd6bf6b50c703d1
+#: ../../source/Chapter10.rst:457
+msgid "6.2"
+msgstr ""
+
+# a4cffd29620f45618ce009fa7b28b5c1
+#: ../../source/Chapter10.rst:457
+msgid "27.7"
+msgstr ""
+
+# e4b5de1448bf45c78b02f572aba0c6a8
+# b8727cded6e54fa2a2cbf1f6605fee30
+# c9c381c3a79f43ddb2c6fb0eb31f913d
+# e954885b059d47539f063ab8c695ad81
+# 059d0383784f4bb8b264f804404e5c99
+# 28676957e0fe4ebca3bf93ae8c608d0d
+# 2d588c748ebe4a5a9af11556387684b6
+# b992a710aacf4e4299d472a4bc563537
+# 0197968e22fd40018cac739fca361ba1
+# d34a34842046428da8bde3c0bfa673cd
+#: ../../source/Chapter10.rst:457 ../../source/Chapter10.rst:458
+#: ../../source/Chapter10.rst:459 ../../source/Chapter10.rst:465
+#: ../../source/Chapter10.rst:466 ../../source/Chapter10.rst:467
+#: ../../source/Chapter10.rst:468 ../../source/Chapter10.rst:469
+#: ../../source/Chapter10.rst:470
+msgid "15"
+msgstr ""
+
+# dbefa68755d149259db8a9b972505445
+#: ../../source/Chapter10.rst:458
+msgid "C21/C22"
+msgstr ""
+
+# bcd5cc80ef7d4b568a6008265623bc46
+# 85a4153c1507496590d76a0f03ab07f5
+# 1a9bfa6defff432dbd76fd6430819562
+#: ../../source/Chapter10.rst:458 ../../source/Chapter10.rst:464
+#: ../../source/Chapter10.rst:470
+msgid "16"
+msgstr ""
+
+# 9deadf42458e48c8ba9dfbcbbb1d62e9
+#: ../../source/Chapter10.rst:458
+msgid "14:20"
+msgstr ""
+
+# 3a81b0a1e45e4259a144e549323e5cbc
+#: ../../source/Chapter10.rst:458
+msgid "16.1"
+msgstr ""
+
+# fd9a45f662da417aa5840747629143e2
+#: ../../source/Chapter10.rst:458
+msgid "49.1"
+msgstr ""
+
+# 515a0aacd9d3481db4d7ed8221f5343b
+# 158e4b5bab9a475481f96e32564fe4e1
+# b58d10eaf9954ad6962fe7e357c00e34
+# e52ab98c7a514fafb7fc52110a2715f1
+#: ../../source/Chapter10.rst:458 ../../source/Chapter10.rst:459
+msgid "7"
+msgstr ""
+
+# 2e742a826a064e46835f534eec3cbe20
+# 2fa5caec218449e0ba8fbbd4dcf8410c
+#: ../../source/Chapter10.rst:458 ../../source/Chapter10.rst:469
+msgid "15:50"
+msgstr ""
+
+# b5bf1518cd2c45df810900a2be54987d
+#: ../../source/Chapter10.rst:458
+msgid "33.8"
+msgstr ""
+
+# 2710686cbd4948c38c02997b0111bf3c
+#: ../../source/Chapter10.rst:459
+msgid "M1"
+msgstr ""
+
+# e1cb1496b67e4de187d9403c75b54a7d
+# 0abfac238a0d448f94769d400bbfdc89
+#: ../../source/Chapter10.rst:459 ../../source/Chapter10.rst:465
+msgid "15.2"
+msgstr ""
+
+# 63f8154ded4d407caf120fb1808d76f7
+#: ../../source/Chapter10.rst:459
+msgid "11:00"
+msgstr ""
+
+# 845769de6f8247ccbcea0eaba886aff8
+#: ../../source/Chapter10.rst:459
+msgid "45"
+msgstr ""
+
+# 9ad30e90c85248e19c7bf1d2a67786e2
+#: ../../source/Chapter10.rst:459
+msgid "13:40"
+msgstr ""
+
+# b713cbc7e0984c4f9746f3d6f4db7bf9
+#: ../../source/Chapter10.rst:459
+msgid "29.1"
+msgstr ""
+
+# 43e17e0663e84026ac439a577c258675
+#: ../../source/Chapter10.rst:459
+msgid "31%"
+msgstr ""
+
+# d2c6a0886aa44e89b13e39626e813440
+#: ../../source/Chapter10.rst:460
+msgid "M2"
+msgstr ""
+
+# 2b78bedb7f104fba9a671cfe4a283846
+# f275d92f2fbc4f4297b97763927fa05b
+# 8326d1bf25cc4509bc227eff595845fd
+# cf5cff635dcb4396b74203d674b9cec8
+#: ../../source/Chapter10.rst:460 ../../source/Chapter10.rst:461
+#: ../../source/Chapter10.rst:470
+msgid "25"
+msgstr ""
+
+# 30d37221cb4b4e60baaad8bfbe461ec5
+#: ../../source/Chapter10.rst:460
+msgid "11:10"
+msgstr ""
+
+# 75373a260f5e4eb5b3c36070cdc6ddbf
+# f89352e984814f67b97d7baf887d1bf7
+#: ../../source/Chapter10.rst:460 ../../source/Chapter10.rst:461
+msgid "60"
+msgstr ""
+
+# ba3472f56cb9412496a30c13107dc307
+# 9bc4948483204e408f2ffbb63967403b
+# e93b9769c4af4b279b817e209323e047
+# 0bad60b8deff4180810b8b45a82e5fba
+# 2ee2c028fb344032b4eb7b0aa548bcaf
+# 478c7f4f762a44c8aaa5239d95100068
+# ce0e8b3fd12a4c348d1d3c4888b6801f
+# 9fa7c5f5e7d2448abc883d02e8c92c86
+# 34e58a6d4cfe45a2977b1066803374d2
+# 556958ffabba4e63ad307e09152d9990
+# db296921d9bd4fd3884d48f7d4a5f230
+# 795b9b1d892942fba1b8968eb928a3dd
+# fdb811f96b8f467ebd94ee2aaf603d3b
+# e99a22e39ee1426597a2cab6416faa2b
+#: ../../source/Chapter10.rst:460 ../../source/Chapter10.rst:461
+#: ../../source/Chapter10.rst:462 ../../source/Chapter10.rst:463
+#: ../../source/Chapter10.rst:465 ../../source/Chapter10.rst:467
+#: ../../source/Chapter10.rst:469 ../../source/Chapter10.rst:470
+msgid "8"
+msgstr ""
+
+# 21a9448703464d1c8cd020a3979e0ad5
+#: ../../source/Chapter10.rst:460
+msgid "13:45"
+msgstr ""
+
+# b12c5fbcffa44160b2a37084ace26bc6
+#: ../../source/Chapter10.rst:460
+msgid "37"
+msgstr ""
+
+# 32aa8294c6034997ad0e785983a0e24f
+# c484be51b1024e9197f9243d19e810db
+# 0b0c20343b5d4922a4bb399a34401cab
+# 009aaee1e5044e7e943692015a07c1c7
+# a0e20a2abb3b4c408ab6201d618e2971
+# c343e357f5c3453bb3dd354178812f2e
+#: ../../source/Chapter10.rst:460 ../../source/Chapter10.rst:461
+#: ../../source/Chapter10.rst:462 ../../source/Chapter10.rst:463
+#: ../../source/Chapter10.rst:465
+msgid "20"
+msgstr ""
+
+# c2839c8af6be4f5f99f17d2cbe51d65a
+#: ../../source/Chapter10.rst:461
+msgid "M3"
+msgstr ""
+
+# efa155f364374b4ba2632623412a7266
+# 2d251e86bd524087a1046f9217d94ba0
+#: ../../source/Chapter10.rst:461 ../../source/Chapter10.rst:465
+msgid "15:00"
+msgstr ""
+
+# d38c1f89958e46de9a60e26dd513b3e2
+#: ../../source/Chapter10.rst:461
+msgid "24.5"
+msgstr ""
+
+# 400afd49dfb848629bacd482851762dd
+#: ../../source/Chapter10.rst:461
+msgid "16:00"
+msgstr ""
+
+# 0d5eeee77efc43e99b278a1f90f8f9d3
+#: ../../source/Chapter10.rst:461
+msgid "7.8"
+msgstr ""
+
+# 943a76cf46b74e2ea8179e4428aba81b
+#: ../../source/Chapter10.rst:461
+msgid "35.4"
+msgstr ""
+
+# 8494b09c80f3486c998e306a172c726b
+#: ../../source/Chapter10.rst:461
+msgid "79%"
+msgstr ""
+
+# 79ce68c1043242edb8361373276dff99
+#: ../../source/Chapter10.rst:462
+msgid "M4"
+msgstr ""
+
+# 39a6ffcf434e4fecbab1c13c6b8001eb
+#: ../../source/Chapter10.rst:462
+msgid "26"
+msgstr ""
+
+# e4c9324985ba4a63adef54a131b50b53
+#: ../../source/Chapter10.rst:462
+msgid "15:10"
+msgstr ""
+
+# aa2370ea1c604bd6977613b978d30ac4
+#: ../../source/Chapter10.rst:462
+msgid "24"
+msgstr ""
+
+# ed776a3df6a840809daef450b6d0db94
+#: ../../source/Chapter10.rst:462
+msgid "59.8"
+msgstr ""
+
+# 9d1dee10a6bd43fea3b4a80eb962facd
+#: ../../source/Chapter10.rst:462
+msgid "16:06"
+msgstr ""
+
+# 245fe72f07d7442fb3ab8f283fd9847f
+# 6968e68b1dee460bb7c8777207ad7733
+#: ../../source/Chapter10.rst:462 ../../source/Chapter10.rst:464
+msgid "40"
+msgstr ""
+
+# 8b0680480c5b4e66a85ed095bf858080
+#: ../../source/Chapter10.rst:462
+msgid "69%"
+msgstr ""
+
+# c7dc0210a39740f1bc411d07e7957468
+#: ../../source/Chapter10.rst:463
+msgid "A1"
+msgstr ""
+
+# c1516ebe510e403da47eb496b2d50529
+#: ../../source/Chapter10.rst:463
+msgid "9:00"
+msgstr ""
+
+# 55ad1a71462c48c689312b3b919d9e16
+#: ../../source/Chapter10.rst:463
+msgid "20.5"
+msgstr ""
+
+# eefdb3de6ad148da8f2bfa75480479bd
+#: ../../source/Chapter10.rst:463
+msgid "50.5"
+msgstr ""
+
+# e387ed9f33aa459695411224a0196169
+#: ../../source/Chapter10.rst:463
+msgid "10:50"
+msgstr ""
+
+# bca92cfb26e848b4b9664b3a1de57f91
+#: ../../source/Chapter10.rst:463
+msgid "33"
+msgstr ""
+
+# da62a666de3244569362469d6bc5782b
+#: ../../source/Chapter10.rst:463
+msgid "43%"
+msgstr ""
+
+# dbea611db48b477391bd8ae61b05d9af
+#: ../../source/Chapter10.rst:464
+msgid "A2"
+msgstr ""
+
+# b1a8b9f44a0a450a82e6329c6606ad61
+#: ../../source/Chapter10.rst:464
+msgid "13:15"
+msgstr ""
+
+# 19f6b4e884d34743a05d03c5eaf49d75
+# 942c2450739b48e5acf78889e08939f6
+#: ../../source/Chapter10.rst:464 ../../source/Chapter10.rst:466
+msgid "16.2"
+msgstr ""
+
+# a26fd6e822b94022b5fda9f092cec3ae
+#: ../../source/Chapter10.rst:464
+msgid "40.3"
+msgstr ""
+
+# 623a9143e3a64c10a03bc7ce63719348
+#: ../../source/Chapter10.rst:464
+msgid "16:19"
+msgstr ""
+
+# d16d557fc08a409396df8cde5c142e74
+#: ../../source/Chapter10.rst:464
+msgid "36.7"
+msgstr ""
+
+# fce22069d14747b4868391b3ea57a638
+#: ../../source/Chapter10.rst:464
+msgid "7%"
+msgstr ""
+
+# 2bc5214c3ecf4f4cb07276561d51a294
+#: ../../source/Chapter10.rst:465
+msgid "A3"
+msgstr ""
+
+# 5c087402866746aeaa31af8c553e5931
+#: ../../source/Chapter10.rst:465
+msgid "11:20"
+msgstr ""
+
+# 8ddf46088bf84346acebe04404883b9f
+#: ../../source/Chapter10.rst:465
+msgid "43.8"
+msgstr ""
+
+# 0d95882f504541afaee2da22da8a196f
+#: ../../source/Chapter10.rst:465
+msgid "32"
+msgstr ""
+
+# beb58a1b78b941b6b79ae676e67e65e9
+# fdeabce258e54edc9d72b59e59ffaa5d
+#: ../../source/Chapter10.rst:465 ../../source/Chapter10.rst:467
+msgid "24%"
+msgstr ""
+
+# b6faa705be814a839533bd070ab14b3e
+#: ../../source/Chapter10.rst:466
+msgid "A4"
+msgstr ""
+
+# ed348c589ec74adfa30353044fde2ba1
+#: ../../source/Chapter10.rst:466
+msgid "13:50"
+msgstr ""
+
+# 889fedf915164796aa945b74dd6d4189
+#: ../../source/Chapter10.rst:466
+msgid "16.3"
+msgstr ""
+
+# 44fa5c983e614d8796bdd3a9dfba1b42
+#: ../../source/Chapter10.rst:466
+msgid "53"
+msgstr ""
+
+# 4f88607e6e814c11a332edf7a72f4f7c
+# b4c93c76e36e44dfbf6893749b0377d2
+#: ../../source/Chapter10.rst:466
+msgid "12"
+msgstr ""
+
+# 8de27d7ba24946c58d6783e7d41d251d
+#: ../../source/Chapter10.rst:466
+msgid "13:16"
+msgstr ""
+
+# 89ba91dace3c465790705d73f0710250
+#: ../../source/Chapter10.rst:466
+msgid "45.3"
+msgstr ""
+
+# 8129d55c6ea74f4cbedbf1270cd3360a
+#: ../../source/Chapter10.rst:466
+msgid "26%"
+msgstr ""
+
+# 62dc64ab1edf4bc693d97105ce76cfe4
+#: ../../source/Chapter10.rst:467
+msgid "B1"
+msgstr ""
+
+# ac397c6774844ed090820b58bbf707bb
+# af207806752544f98fb4e5ddbc86492d
+# 5eb34e2bc03d407ea4c79dacf328918e
+#: ../../source/Chapter10.rst:467 ../../source/Chapter10.rst:469
+msgid "14"
+msgstr ""
+
+# f4c168c65f8848bdb5fa1b7e9bb8896f
+#: ../../source/Chapter10.rst:467
+msgid "13.6"
+msgstr ""
+
+# 347c9b28d2dc4956a87160592ec02faf
+#: ../../source/Chapter10.rst:467
+msgid "50.7"
+msgstr ""
+
+# 0cc9cc42070d414799a8477dab80a06e
+#: ../../source/Chapter10.rst:467
+msgid "14:30"
+msgstr ""
+
+# 9e72e48e92864ecaba591cad1918e385
+#: ../../source/Chapter10.rst:467
+msgid "42.7"
+msgstr ""
+
+# 966f950e3f5c4e2bbcb73463ed2e53c6
+#: ../../source/Chapter10.rst:468
+msgid "B2"
+msgstr ""
+
+# 31dadeb5f4254d01bce12026f7addf6d
+# db6751b556ae456094a137ba0f32ced1
+#: ../../source/Chapter10.rst:468
+msgid "17"
+msgstr ""
+
+# 8614c10b71e344ba9127708f1a5d7f12
+#: ../../source/Chapter10.rst:468
+msgid "55.7"
+msgstr ""
+
+# 972f1c5fe01b44b286bfbff7e858f250
+#: ../../source/Chapter10.rst:468
+msgid "9"
+msgstr ""
+
+# 1215c49de98042db88f641cde20a13cb
+#: ../../source/Chapter10.rst:468
+msgid "13:42"
+msgstr ""
+
+# 371cc0ddb1174a16934ccf58d409224e
+#: ../../source/Chapter10.rst:468
+msgid "8.7"
+msgstr ""
+
+# 07c33a35902e4f2c830081d90ec6f23e
+#: ../../source/Chapter10.rst:468
+msgid "42.2"
+msgstr ""
+
+# 98fa97924c6d4f1a84de903ebf79237a
+#: ../../source/Chapter10.rst:468
+msgid "45%"
+msgstr ""
+
+# 4523c0d623074375a6e4496854c12c22
+#: ../../source/Chapter10.rst:469
+msgid "R1/R2"
+msgstr ""
+
+# ff7adfcf10b048619fd08bc1bc1e4e0a
+#: ../../source/Chapter10.rst:469
+msgid "11:40"
+msgstr ""
+
+# e07fa51cdc3c4416959950cf46dd8dfa
+#: ../../source/Chapter10.rst:469
+msgid "54.7"
+msgstr ""
+
+# 90b7f9fc660a4961a9ed76c62bca7660
+#: ../../source/Chapter10.rst:469
+msgid "44.1"
+msgstr ""
+
+# bbdf801a46804969820d4a8e1962ebcf
+#: ../../source/Chapter10.rst:469
+msgid "36%"
+msgstr ""
+
+# ba57e898ebed49549078ecdfc3118210
+#: ../../source/Chapter10.rst:470
+msgid "R3/R4"
+msgstr ""
+
+# bc7fbe0618cc47b5b9c525bd9f5dd625
+#: ../../source/Chapter10.rst:470
+msgid "11:45"
+msgstr ""
+
+# abd2b7358ae54b389249605d2659c340
+#: ../../source/Chapter10.rst:470
+msgid "50.4"
+msgstr ""
+
+# baa2271525504e7992d5d6ae10f8ce94
+#: ../../source/Chapter10.rst:470
+msgid "15:54"
+msgstr ""
+
+# b6a1f19812b341588e0bddd49a35d37e
+#: ../../source/Chapter10.rst:470
+msgid "7.1"
+msgstr ""
+
+# 5c3e047fd80947a9875b1df12f66eee9
+#: ../../source/Chapter10.rst:470
+msgid "36"
+msgstr ""
+
+# 5ed89b45f3364d6eb0f0b64273621d57
+#: ../../source/Chapter10.rst:470
+msgid "38%"
+msgstr ""
+
+# 68fd2e12de1c4714ba4fb244920837a8
+#: ../../source/Chapter10.rst:472
+msgid "**Ave/Tot**"
+msgstr ""
+
+# 037bcb06e87a42b782b4a592ec9ffe49
+#: ../../source/Chapter10.rst:472
+msgid "270"
+msgstr ""
+
+# b997e5f1b9db44daa000a9711c7da5fb
+#: ../../source/Chapter10.rst:474
+msgid "**Total    Savings**"
+msgstr ""
+
+# 0ebb74a1109c4b249462269a4bcf2ee7
+#: ../../source/Chapter10.rst:474
+msgid "108hp (80kw)"
+msgstr ""
+
+# 40768d8bc2e348b29f186b8da2ed6c16
+#: ../../source/Chapter10.rst:478
+msgid "**Central Plant and Distribution Loops**"
+msgstr ""
+
+# 800deec91f214541bbe7b1b4178874ab
+#: ../../source/Chapter10.rst:480
+msgid "**Boiler steam pressure and boiler operation**"
+msgstr ""
+
+# bfe670c5d20f42f4a6b39b8051d4bc20
+#: ../../source/Chapter10.rst:482
+msgid ""
+"The original steam pressure was set to 125 psi. However, the actual "
+"required pressure for BAMC was less than 125 psi. The recommendation was "
+"made to reduce the boiler pressure to 100 psi, thus reducing losses and "
+"gas consumption. The operations staff was not comfortable with 100 psi, "
+"but agreed to drop the pressure to 110 psi. The boiler efficiency "
+"increased after implementing the new steam pressure set point. Also, the "
+"practice at BAMC was to run two boilers year round. As part of "
+"commissioning, one boiler was shut down during the summer and swing "
+"seasons."
+msgstr ""
+
+# ab1792076ff44224b78680d12cfe841c
+#: ../../source/Chapter10.rst:484
+msgid "**Chilled water loop**"
+msgstr ""
+
+# 4e3919d266a343c5b56dfcb11a5a0baf
+#: ../../source/Chapter10.rst:486
+#, python-format
+msgid ""
+"Before the commissioning, the blending valve separating the primary and "
+"secondary loops at the plant was 100% open. The primary and secondary "
+"pumps were both running. The manual valves were partially open for the "
+"secondary loop, although the secondary loop pumps were equipped with "
+"VFDs. After the commissioning audit and investigations, the following was"
+" implemented."
+msgstr ""
+
+# a3d6db5079ae4f20aac17110b63e9ae1
+#: ../../source/Chapter10.rst:488
+msgid "Open the manual valves for the secondary loop"
+msgstr ""
+
+# a3ccfaff62054c7bb1cc1642fda6c97e
+#: ../../source/Chapter10.rst:489
+msgid "Close the blending stations"
+msgstr ""
+
+# f5c26f94489f4ebfb95a6944fe3a2438
+#: ../../source/Chapter10.rst:490
+msgid "Shut down the secondary loop pumps"
+msgstr ""
+
+# 21806e2f0cbe4130b7a913bbcd2e9b7f
+#: ../../source/Chapter10.rst:492
+msgid ""
+"As a result, the primary loop pumps provided required chilled water flow "
+"and pressure to the building entrance for most of the year, and the "
+"secondary pumps stay offline for the majority of the time. The operator "
+"drops the online chiller numbers according to the load conditions and the"
+" minimum chilled water flow can be maintained to the chillers. At the "
+"same time, the chiller efficiency is also increased."
+msgstr ""
+
+# d5474e9eb11f4d408b24db85581dbad5
+#: ../../source/Chapter10.rst:494
+msgid "**Results**"
+msgstr ""
+
+# 61c4c320990849c49b047a8dc07c978f
+#: ../../source/Chapter10.rst:496
+msgid ""
+"Major commissioning activities were completed in April 1999 and the "
+"Energy Systems Laboratory continued to monitor BAMC through June 2000. We"
+" worked with the operations staff to assist with troubleshooting and "
+"continue to fine-tune the operation. The commissioning started in October"
+" 1998 and the 1997-1998 utility bills were used to establish the energy "
+"baseline."
+msgstr ""
+
+# 56c8fa9fd9df4304a44ec982b8648e19
+#: ../../source/Chapter10.rst:502
+msgid "Figure A-10. Accumulated CCSM Energy Cost Savings in Brooke Army Hospital"
+msgstr ""
+
+# b68e8a8fc854401bbcaa8ff067086500
+#: ../../source/Chapter10.rst:504
+msgid ""
+"Figure A-10 presents the accumulated energy cost savings. Since the "
+"commissioning process extended over a seven-month period, savings were "
+"calculated to be approximately $105,000 during the implementation phase. "
+"For the 14-month period (May 1999-June 2000) savings were measured to be "
+"nearly $410,000, or approximately $30,000/month, based on 1997-1998 "
+"energy prices. Total savings from the commissioning process (October 1998"
+" to June 2000) were approximately $515,000. The ESL cost to meter, "
+"monitor, commission and provide a year’s follow-up services was less than"
+" $350,000. This cost does not include time for the facilities operations "
+"staff who repaired kinked flex ducts, replaced failed sensors, "
+"implemented some of the controls and subroutines, and participated in the"
+" CCSM process. More technical information regarding this case study can "
+"be found in the references."
+msgstr ""
+
+# b363a48687b54673993e62850c1d371e
+#: ../../source/Chapter10.rst:506
+msgid "**Acknowledgements**"
+msgstr ""
+
+# 7223bcdeff0449ca942ca7c2bd425912
+#: ../../source/Chapter10.rst:508
+msgid ""
+"We would like to acknowledge the assistance and cooperation of Chuck "
+"Cameron, lead operator, and Ben Keeble, project manager, of Johnson "
+"Controls, Inc.; and Roy Hirchak, chief, BAMC Facility Management, for "
+"their contributions to the BAMC Continuous CommissioningSM project."
+msgstr ""
+
+# 60c16be88ac44bad91de5854e8550eaf
+#: ../../source/Chapter10.rst:510
+msgid "**References**"
+msgstr ""
+
+# 536784fc0f2e4bc8a6a73ff86aeb8cfe
+#: ../../source/Chapter10.rst:512
+msgid ""
+"Bronson, D., 1992. “Calibrated computer simulations for the analysis of "
+"retrofit energy savings. Master’s Thesis. Energy Systems Laboratory "
+"Report Nos. ESL-TH-92/04-02 and ESL-TH-92/04-01. College Station: Texas "
+"A&M University System."
+msgstr ""
+
+# fc44e00f571d44b38286f424939527e9
+#: ../../source/Chapter10.rst:514
+msgid ""
+"Bronson, D., S. Hinchey, J.S. Haberl and D. O’Neal, 1992. “A Procedure "
+"for calibrating the DOE-2 simulation program to non-weather-dependent "
+"loads.” ASHRAE Transactions Vol. 98, Part I, pp. 636-652."
+msgstr ""
+
+# 88a22fadeca5457584d6b8aeab212859
+#: ../../source/Chapter10.rst:516
+#, python-format
+msgid ""
+"Claridge, D.E., M. Liu, Y. Zhu, M. Abbas, A. Athar and J.S. Haberl, 1996."
+" “Implementation of Continuous Commissioning in the Texas LoanSTAR "
+"Program: Can You Achieve 150% of Estimated Retrofit Savings Revisited,” "
+"Proc. ACEEE 1996 Summer Study on Energy Efficiency In Buildings,American "
+"Council for an Energy Efficient Economy, Washington, D.C., pp. 4.59-4.67."
+msgstr ""
+
+# 3aff68d530aa431e8c1e84f99dd5fecd
+#: ../../source/Chapter10.rst:518
+msgid ""
+"Claridge, D.E., C.H. Culp, M. Liu, S. Deng, W.D. Turner and J.S. Haberl, "
+"2002. “Campus-Wide Continuous CommissioningSM of University Buildings,” "
+"Proc. of ACEEE 2000 Summer Study on Energy Efficiency in Buildings, "
+"Pacific Grove, CA, Aug. 20-25, pp. 3.101-3.112."
+msgstr ""
+
+# 216b2b78134347eaab8ee0d9064e4980
+#: ../../source/Chapter10.rst:520
+msgid ""
+"Claridge, D.E. and M. Liu, 2002. “HVAC System Commissioning,” in Handbook"
+" of Heating, Ventilation, and Air Conditioning, Jan F. Kreider, ed., CRC "
+"Press, Boca Raton, Fla., pp. 7-1 through 7-25."
+msgstr ""
+
+# 273c3cef91f04f5ea1bdca97cf104606
+#: ../../source/Chapter10.rst:522
+msgid ""
+"Haberl, J.S., D. Bronson, S. Hinchey, and D. O’Neal, 1993. “Graphical "
+"Tools to Help Calibrate the DOE-2 Simulation Program to Non-Weather-"
+"Dependent Measured Loads. ASHRAE Journal, Vol. 35, Part I, pp. 27-32."
+msgstr ""
+
+# 4dd7714a0dff47319e005cde72638048
+#: ../../source/Chapter10.rst:524
+msgid ""
+"Haberl, J., D. Bronson and D. O’Neal, 1995. “An Evaluation of the Impact "
+"of Using Measured Weather Data Versus TMY Weather Data in a DOE-2 "
+"Simulation of an Existing Building in Central Texas,” ASHRAE Transactions"
+" Vol 101, Part II, pp. 558-576."
+msgstr ""
+
+# 77f293b75313422cb927d15a7703f685
+#: ../../source/Chapter10.rst:526
+msgid ""
+"Katipamula, S., and C. Claridge, 1992a. “Monitored Air Handler "
+"Performance and Comparison with a Simplified System Model,” ASHRAE "
+"Transactions, Vol. 98, Part I, pp. 341-351."
+msgstr ""
+
+# 6912189f893b4082b8f70bb053481b18
+#: ../../source/Chapter10.rst:528
+msgid ""
+"Katipamula, S. and D.E. Claridge, 1992b, “Importance of Monitoring Air "
+"Handler Performance,” Proceedings of the ACEEE 1992 Summer Study on "
+"Energy Efficiency in Buildings, Volume 3, American Council for an Energy "
+"Efficient Economy, Washington, D.C., pp. 161-164."
+msgstr ""
+
+# a69c29049fe74b91966904ad30404272
+#: ../../source/Chapter10.rst:530
+msgid ""
+"Kissock, J.K., T.A. Reddy D.E. Claridge, 1998. “Ambient-Temperature "
+"Regression Analysis for Estimating Retrofit Savings In Commercial "
+"Buildings,” ASME Journal of Solar Energy Engineering, Vol. 120, pp. "
+"168-176."
+msgstr ""
+
+# 4ca4766c4ffe4d78a7e1a4d1fb9643ae
+#: ../../source/Chapter10.rst:532
+msgid ""
+"Liu, M., D.E. Claridge, J.S. Haberl, W.D. Turner, 1997. “Improving "
+"Building Energy System Performance by Continuous Commissioning,” "
+"Proceedings of the Thirty Second Intersociety Energy Conversion "
+"Engineering Conference, Vol. 3., July 27 - August 1, 1997, Honolulu, "
+"Hawaii, 9 pp."
+msgstr ""
+
+# 1009d36898f543c8b75885341fc23fab
+#: ../../source/Chapter10.rst:534
+msgid ""
+"Liu, M. and D.E. Claridge, 1998. “Use of Calibrated HVAC System Models to"
+" Optimize System Operation,” ASME Journal of Solar Energy Engineering, "
+"Vol. 120, pp. 131-138."
+msgstr ""
+
+# ab4b4d87754f4f36a5210d260fdbdfd6
+#: ../../source/Chapter10.rst:536
+msgid ""
+"Texas Energy Cost Containment Program, 1986. “Energy Cost Reduction "
+"Analysis of Texas A&M University (7110) Oceanography and Meteorology "
+"Bldg, Soil & Crop Sciences Bldg, Zachry Engineering Center,” Texas Energy"
+" Engineers, Inc., 155 pp."
+msgstr ""
+
+# 8d2e7a5c4c774f47b7ec8b8fbdf7e33d
+#: ../../source/Chapter10.rst:538
+msgid ""
+"Zhu Y, M. Liu, T. Batten, W.D. Turner, D.E. Claridge, H. Noboa and J. "
+"Zhou, 2000. “Integrated Commissioning for a Large Medical Facility,” The "
+"Twelfth Symposium on Improving Building Systems in Hot and Humid Climates"
+" Proceedings, May 15-16, San Antonio, Texas, pp. 62-69."
+msgstr ""
+
+# dd76f86a9efd490e8329d05693e6e4ad
+#: ../../source/Chapter10.rst:540
+msgid ""
+"Zhu Y, M. Liu, T Batten, W. D. Turner and D. E. Claridge, 2000. “A Simple"
+" and Quick Chilled Water Loop Balancing for Variable Flow Systems,” The "
+"12th Symposium on Improving Building Systems in Hot and Humid Climates "
+"Proceedings, May 15-16, San Antonio, Texas, pp. 158-162."
+msgstr ""
+
+# ce105ad66eb54653b6623b7cf3b660df
+#: ../../source/Chapter10.rst:542
+msgid ""
+"Zhu, Y, M. Liu, T. Batten, H. Noboa, D.E. Claridge, and W.D. Turner, "
+"2000. “Optimization Control Strategies for HVAC terminal Boxes,” The 12th"
+" Symposium on Improving Building Systems in Hot and Humid Climates "
+"Proceedings, May 15-16, San Antonio, Texas, pp. 278-284."
+msgstr ""
+

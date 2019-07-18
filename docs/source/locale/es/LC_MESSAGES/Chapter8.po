@@ -1,0 +1,754 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Building Energy Studio
+# This file is distributed under the same license as the Continuous
+# Commissioning package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Continuous Commissioning \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-18 13:54+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+# fc54b434591c47a09444c8c5e95a6fd0
+#: ../../source/Chapter8.rst:2
+msgid "Ch 8: CCSM Measures for Thermal Storage Systems"
+msgstr ""
+
+# f2915eb3328d4371b974dfeead1f7c56
+#: ../../source/Chapter8.rst:4
+msgid ""
+"Thermal storage systems are intended to meet part or all of the cooling "
+"needs of a building during specified periods of peak demand. It is "
+"essential they have sufficient capacity to provide the cooling during "
+"these periods. Figure 8-1 presents the schematic diagram of a thermal "
+"storage system. During off-peak hours, part of the cooling energy "
+"produced by the chillers is used for charging the storage systems that "
+"generally store cold water or ice. During peak hours, buildings receive "
+"cooling energy from the tank and/or chillers."
+msgstr ""
+
+# a22aeb376f974eb7acf570648bfaf1da
+#: ../../source/Chapter8.rst:10
+msgid "Figure 8-1. Thermal Storage System in Charging Mode and in Discharge Mode"
+msgstr ""
+
+# 7aacd09a7e70412bb296d7aef8b26f00
+#: ../../source/Chapter8.rst:12
+msgid ""
+"Thermal storage systems save costs by decreasing peak electrical demand "
+"during the electric utility’s peak demand window. However, the billed "
+"demand may also depend on off-peak demand. Therefore, the cost savings "
+"strongly depend on the utility rate structure. For example, if there is a"
+" ratchet on the demand, a single system failure during the summer peak "
+"can largely eliminate the savings produced by the system for the entire "
+"year. Although optimizing thermal storage operation often requires "
+"special considerations based on each case, several CCSM measures apply to"
+" any type of thermal storage system. This chapter only discusses these "
+"measures."
+msgstr ""
+
+# e0609f9c37fe4f40a7a1e91be5f26809
+#: ../../source/Chapter8.rst:15
+msgid "8.1 Maximize Building Return Water Temperature"
+msgstr ""
+
+# 6a02cf9559ff4330aa857b1857669802
+#: ../../source/Chapter8.rst:17
+#, python-format
+msgid ""
+"Low return water temperature is the primary problem with thermal storage "
+"systems. A low return water temperature prevents the chiller from "
+"operating at full load. Consequently, the chiller may not be able to "
+"charge the tank during off-peak hours. A low return water temperature can"
+" also significantly reduce the storage capacity of the system. For "
+"example, if the building return temperature is 50°F instead of 54°F, the "
+"thermal storage capacity will be decreased by 33% if the design "
+"temperature difference is 12°F. To increase the return water temperature,"
+" the following procedures should be followed:"
+msgstr ""
+
+# 83f7ae369d0b4a4bb2a9f990f423eb67
+#: ../../source/Chapter8.rst:19
+msgid ""
+"Implement building loop and secondary loop CCSM measures. The key "
+"measures are repeated below:"
+msgstr ""
+
+# c026b0db0f0c46acaa05dc1a88856e03
+#: ../../source/Chapter8.rst:22
+msgid "Close three-way valves on the cooling coils"
+msgstr ""
+
+# b0814398bd3942f081b27f513b2792da
+#: ../../source/Chapter8.rst:23
+msgid ""
+"Close building by-pass to prevent supply water from flowing directly back"
+" to the plant"
+msgstr ""
+
+# a424f7bd404248278df5548d96017ccb
+#: ../../source/Chapter8.rst:25
+msgid "Optimize building loop and secondary loop differential pressure set points"
+msgstr ""
+
+# 960339a1beb448249dc88b00589be345
+#: ../../source/Chapter8.rst:26
+msgid ""
+"Ensure supply air temperatures are set properly and control valves are "
+"functioning properly. Any excessively low supply air temperature set "
+"points can cause low return water temperatures. For example, setting the "
+"air temperature at 50°F instead of 55°F will cause the control valve to "
+"open fully if the chilled water supply temperature is 42°F. The return "
+"temperature will be well below 54°F."
+msgstr ""
+
+# 284b5fff979d473d89353671b151fdb0
+#: ../../source/Chapter8.rst:33
+msgid ""
+"Use a blending station to control return water temperature if the "
+"building water balance problems cannot be solved in a timely manner. This"
+" blends part of the building return water with primary cooling water "
+"before sending it to the building. Using the blending station causes "
+"extra pump power consumption and may also cause humidity control "
+"problems. As soon as the water balance is improved, the blending station "
+"should be disabled."
+msgstr ""
+
+# 45d067852ae544a8af35a11b59899125
+#: ../../source/Chapter8.rst:41
+msgid "8.2 Improve Chilled Water Flow Control Through Chillers"
+msgstr ""
+
+# 32f89e08471246f99f569d627981e2b2
+#: ../../source/Chapter8.rst:43
+msgid ""
+"It is important to control the chilled water flow at the design value. If"
+" the chilled water flow is lower than design flow, the chiller will not "
+"be able to produce full capacity. The tank may not be fully charged as a "
+"result. If the chilled water flow is higher than the design flow value, "
+"the chilled water supply temperature will not control at the required "
+"value. The tank capacity can be decreased significantly. For example, if "
+"the chilled water supply temperature is 44°F instead of 42°F, the tank "
+"capacity is decreased by 16% based on a design temperature difference of "
+"12°F. To improve the chilled water flow control through chillers, the "
+"following guidelines are given:"
+msgstr ""
+
+# 97f0d717e323417b97e044d09a26ca18
+msgid "**Notes**"
+msgstr ""
+
+# 83331d0b00aa476cb607a14e0087c1b6
+#: ../../source/Chapter8.rst:47
+msgid ""
+"It is important to control the chilled water flow at the design value. If"
+" the chilled water flow is lower than design flow, the chiller will not "
+"be able to produce full capacity."
+msgstr ""
+
+# 3b4784d3e4ef493bbe03102ae99aa61d
+#: ../../source/Chapter8.rst:49
+msgid ""
+"If cooling is not provided to the building at night, the designated loop "
+"config- uration should be determined. Balance the system to allow design "
+"chilled water flow through chillers and tanks at night."
+msgstr ""
+
+# 3527a1fc403c401cab47bee941661649
+#: ../../source/Chapter8.rst:51
+msgid ""
+"If cooling is required at night, use a lower loop differential pressure "
+"set point for the building loop at night. Reset cold air supply "
+"temperature to a higher value if that is acceptable."
+msgstr ""
+
+# 9c6a91313d214619a14c95aa10837690
+#: ../../source/Chapter8.rst:54
+msgid ""
+"Modulate tank charging pump to maintain a constant chilled water flow "
+"through the chiller. This requires special handling on a case by case   "
+"basis."
+msgstr ""
+
+# f878104ceaa244fb8a6f7817e6f92961
+# c2530b8579284ceba979a17c4d2c88e1
+#: ../../source/Chapter8.rst:56 ../../source/Chapter8.rst:170
+msgid "EXAMPLE:"
+msgstr ""
+
+# afc25c6057154a70bf342e649b3993df
+#: ../../source/Chapter8.rst:58
+msgid ""
+"A thermal storage system was installed in a 37,000 sq.ft. county hospital"
+" in Monahans, Texas, in the early 1990s. The hospital has a 120-ton "
+"chiller and the thermal storage system included a 80,675 gallon above "
+"ground chilled water storage tank shown in Figure 8-2."
+msgstr ""
+
+# 93fc3e5a6dd94e6fafe47f07d02f866f
+#: ../../source/Chapter8.rst:67
+msgid "Figure 8-2. Chilled Water Storage Tank at the Hospital in Monahans, Texas"
+msgstr ""
+
+# 4eca57d82d7244fbbd71f1fdc8f36ed7
+#: ../../source/Chapter8.rst:70
+msgid ""
+"The waterside of the chiller/thermal storage system is shown in Figure "
+"8-3. The figure shows the system in the tank discharge mode with the "
+"chiller isolated from the loop. The tank pump shown has a 125 gpm "
+"capacity, while the design flow rate in the building loop is 180 gpm. The"
+" chiller pump capacity is 228 gpm. The building has 12 small roof top "
+"units to serve the administrative areas. Two control valves are used for "
+"the cooling coil. The patient rooms were conditioned by 32 fan-coil units"
+" connected to the chilled water loop through three way valves."
+msgstr ""
+
+# a278ae9bfe8d48d2b155a5ba05ecbe23
+#: ../../source/Chapter8.rst:72
+msgid ""
+"The thermal storage system had problems from the beginning and appeared "
+"to have inadequate storage capacity, and/or chiller capacity, to handle "
+"the cooling requirements of the hospital during the noon to 8 p.m. peak "
+"window. The chiller had to be brought on during some of the hottest days."
+" Figure 8-4 presents the hourly whole building electricity consumption of"
+" the hospital plotted from midnight on the left through the 24 hours of "
+"one day on the right. The first line visible at the front of the figure "
+"is the data for July 31. The second line the data for July 30, etc., with"
+" two months of data shown in the figure. The figure shows that on July "
+"31, consumption through the early hours of the morning was somewhat above"
+" 200 kW, rising above 250 kW by noon, and dropping to levels near 100 kW "
+"until around 8:00 p.m. when it increased to about 200 kW. Hence, the "
+"thermal storage system had operated properly and the chiller had not been"
+" operated during the peak demand window from noon to 8 p.m. However, many"
+" days are visible when the chiller operated during this window. The days "
+"when the chiller operated continuously were generally weekend days when "
+"there was no penalty for operation during this period. The operators were"
+" trying to get the storage fully charged so they would be able to handle "
+"the loads during the week. However, several lines are visible where it "
+"appears the chiller went off, then came back on in the late afternoon. In"
+" these cases the system was not operating as designed."
+msgstr ""
+
+# 7a6bbd0f4b5b49eea9867d7ba9cbb094
+#: ../../source/Chapter8.rst:78
+msgid ""
+"Figure 8-3. Waterside Schematic of the Chiller/Thermal Storage System at "
+"the Hospital in Monahans, Texas"
+msgstr ""
+
+# 8d0719194e714404b557b577d22a62d4
+#: ../../source/Chapter8.rst:85
+msgid ""
+"Figure 8-4. Hourly Electricity Consumption for the Hospital in Monahans, "
+"Texas, for June and July, 1993"
+msgstr ""
+
+# 4f1e86b45bce4432a78d0f65127f7a35
+#: ../../source/Chapter8.rst:87
+msgid "Field measurements identified the following problems:"
+msgstr ""
+
+# 65b25a7fb0584d089f4bf9982732004a
+#: ../../source/Chapter8.rst:89
+#, python-format
+msgid ""
+"The highest differential temperature in the building loop was 7°F "
+"(42/49°F), which indicates the building loop flow was at least 70% higher"
+" than required. The low differential temperature was largely due to "
+"chilled water bypass of the fan coils and a few coils in the roof top "
+"units, where excessive outside air was used."
+msgstr ""
+
+# 5f863624e03f4b92b579d8bc8e13df5b
+#: ../../source/Chapter8.rst:94
+msgid ""
+"Measurements showed the chilled water flow to the building reached 200 "
+"gpm. Since the chiller rated flow rate is 228 gpm, the chilled water flow"
+" to the tank was much lower than the tank pump capacity of 128 gpm and "
+"the tank could not be fully charged during the off-peak hours."
+msgstr ""
+
+# 752f373ea7de4c489efde65df06037c8
+#: ../../source/Chapter8.rst:99
+msgid "To solve the problem, the following actions were taken:"
+msgstr ""
+
+# 99f103592f214415bbedc7e151bf8632
+#: ../../source/Chapter8.rst:101
+msgid ""
+"Conducted AHU system commissioning, which included the following major "
+"items:"
+msgstr ""
+
+# 635fa35d97d7474a932333bd13ab5baa
+#: ../../source/Chapter8.rst:104
+#, python-format
+msgid ""
+"Decreased outside air intake by up to 50% in five major roof top units. "
+"Since no return air fan was installed, the mixed air chamber had a "
+"negative pressure of –1.0 in. H2O or lower. The negative pressure sucked "
+"excessive outside air into the AHU. However, the cooling coil did not "
+"have the capacity to handle the outside air. This caused the cooling "
+"control valve to fully open. Reducing the outside air flow to the "
+"required level allows the chilled water control valve to function "
+"properly. Eliminating the three-way valves was not immediately "
+"implemented due to lack of funds for that purpose."
+msgstr ""
+
+# 843327b6da7b4e59be1014023f6bb3c9
+#: ../../source/Chapter8.rst:113
+msgid ""
+"Calibrated the cold air temperature sensor and set the supply air "
+"temperature at a minimum of 55°F"
+msgstr ""
+
+# c6542010687c486c9b356fb06ca6427a
+#: ../../source/Chapter8.rst:116
+msgid ""
+"Installed a VFD on the building pump and a temperature sensor on both the"
+" return and supply."
+msgstr ""
+
+# 25ed9eeeea3c4b5e8fca877f87e4c05c
+#: ../../source/Chapter8.rst:119
+msgid ""
+"Modulated VFD speed to control the differential temperature at a minimum "
+"of 10°F. The differential pressure sensor was not used since the system "
+"did not include a differential pressure sensor and funds were not "
+"available for installation."
+msgstr ""
+
+# 76c73fd96483437bb135d2862be89b15
+#: ../../source/Chapter8.rst:123
+#, python-format
+msgid ""
+"Set the maximum VFD speed to 60%. There was no manual valve in the bypass"
+" line of the fan coil unit. It was also impossible to cut off the bypass "
+"line when the system was commissioned. However, engineering calculations "
+"showed that the three-way valve would be 90% open to the coil if the VFD "
+"was set at 60% under maximum building load conditions. Although this does"
+" not maximize the pump power savings, it would provide reliable system "
+"operation. This was the top priority of the project."
+msgstr ""
+
+# fb34ba1872b947468e9ba56b68af03d2
+#: ../../source/Chapter8.rst:131
+msgid ""
+"Figure 8-5 shows the building electricity consumption during June and "
+"July the summer after these measures were implemented. It can be seen "
+"that it was never necessary to operate the chiller during the peak demand"
+" window. The system has operated successfully through some of the hottest"
+" summers in Texas history since then."
+msgstr ""
+
+# 6f9910dd7f804fe78e23cab13d040aba
+#: ../../source/Chapter8.rst:137
+msgid ""
+"Figure 8-5. Electricity Consumption for Hospital in Monahans Texas "
+"Following Implementation of CCSM Measures"
+msgstr ""
+
+# 9ae1f49ffa4444d7bec3c8cc227eb129
+#: ../../source/Chapter8.rst:139
+#, python-format
+msgid ""
+"The pump power before and after the CC process is shown in Figure 8-6. "
+"The pumping power has typically been reduced by 50% or more."
+msgstr ""
+
+# ac76ced9b0bf4a9f9a7fddb5ce6a3fba
+#: ../../source/Chapter8.rst:146
+msgid ""
+"Figure 8-6. Pumping Power at the Monahans, Texas, Hospital Before and "
+"After CCSM Measures Were Implemented"
+msgstr ""
+
+# 1034d2c67ada44a5a8cd720570f4f24c
+#: ../../source/Chapter8.rst:149
+msgid ""
+"The savings from restoring the thermal storage system to operation were "
+"$14,190/year, with additional savings of $5,540/year resulting from the "
+"improved pump and AHU operation, for total savings of $19,730/yr. More "
+"information can be found in “Rehabilitating a Thermal Storage System "
+"through Commissioning” [Liu et al. 1999]."
+msgstr ""
+
+# 1076dced2eac4bb69bc7c7371202a975
+#: ../../source/Chapter8.rst:152
+msgid "8.3 Minimize the Off-Peak Demand"
+msgstr ""
+
+# 9f7b97e608504633b15326e25e005bac
+#: ../../source/Chapter8.rst:154
+msgid ""
+"Some utility rate schedules also use off-peak demand to determine the "
+"billing demand. In these cases, decreasing off-peak demand can also "
+"result in significant cost savings. To decrease the off-peak demand, the "
+"following procedures should be followed:"
+msgstr ""
+
+# e8352679797c44fa8ec8fdef27346730
+#: ../../source/Chapter8.rst:156
+msgid ""
+"Turn off the chiller earlier. If the peak period starts at noon, the off-"
+"peak demand is often set between 10:00 a.m. and noon. Turning off one or "
+"two chillers during this short period can result in significant off-peak "
+"demand reduction."
+msgstr ""
+
+# 0fb36cc7706d480a8690281ca4caefec
+#: ../../source/Chapter8.rst:159
+msgid ""
+"Turn on chiller earlier. If the peak period ends after 6:00 p.m., one or "
+"more chillers can often be turned on after 5:00 p.m. since office lights "
+"and equipment are gradually turned off beginning at 5:00 p.m. or even "
+"earlier. Turn on one or more chillers to keep a constant peak demand over"
+" the off-peak period."
+msgstr ""
+
+# 62394044131d41a18f28286a5ece9abb
+#: ../../source/Chapter8.rst:163
+msgid ""
+"Do not entirely charge the tank in a single day when cooling requirements"
+" are low. During mild days or during the winter, a small amount of "
+"cooling may be required. The tank should be partially charged to minimize"
+" the thermal losses. The tank should not be fully charged in a single day"
+" since it may require turning on all chillers for a short period and "
+"could set up a very high off-peak demand for that month."
+msgstr ""
+
+# 38e660bc18a14c25bcb2330df9c1177e
+#: ../../source/Chapter8.rst:172
+msgid ""
+"Terrell State Hospital, located in Terrell, Texas, is a mental health "
+"campus with more than 600,000 square feet of conditioned space in more "
+"than a dozen buildings. A chilled water thermal storage system with 7,000"
+" ton-hours capacity was constructed in 1995 to provide cooling to the "
+"campus. There are four chillers in three different chiller plants, with "
+"total cooling capacity of 1,325 tons (two 425-ton, one 275-ton and one "
+"200-ton)."
+msgstr ""
+
+# 9c8f10e1c03e4e3fbaf01ad2b24d37cd
+#: ../../source/Chapter8.rst:174
+#, python-format
+msgid ""
+"On-peak hours were from noon to 8:00 p.m. weekdays, June through "
+"September. The thermal storage system was intended to decrease on-peak "
+"demand by 700 kW. Figure 8-7 presents the procedures for determining "
+"billed demand. First, demand candidate 1 was determined as the lesser of "
+"the current month’s peak demand (off-peak or on-peak) and as a factor "
+"including ratchet demand and current off-peak demand (25% current off-"
+"peak demand plus 75% of the highest on-peak demand in the last 12 "
+"months). Secondly, demand candidate 2 was determined as the largest of "
+"the following: (1) a ratchet factor, 80% of the annual on-peak demand, "
+"(2) 50% of the contract demand and (3) 50% of the annual peak demand, "
+"including off-peak demand. The actual monthly demand charge was based on "
+"the larger of the two candidate values."
+msgstr ""
+
+# 5fce879345424677ab1c4144a8acabbc
+#: ../../source/Chapter8.rst:176
+msgid ""
+"The hospital had a contract demand of 2,800 kW meaning it had a 1,400 kW "
+"minimum monthly demand charge. The peak demand hours were from noon to "
+"8:00 p.m., Monday through Friday during the months of June, July, August "
+"and September. The historical on-peak demand varied from 1,475 kW to "
+"1,731 kW during the on-peak months. The off-peak demand varied from 1,678"
+" kW to 2,736 kW. Figure 8-8 presents the simulated demand penalties with "
+"hypothetical on-peak demand and off-peak demand values. The demand "
+"penalty is defined as the amount that will be added to 1,400 kW to get "
+"the billed demand. The current month demand values will be the off-peak "
+"demand whenever it is higher than the annual on-peak demand. The "
+"parametric values shown (1400 – 1700) are annual on-peak demand."
+msgstr ""
+
+# 062f3670b89e483383de3ca27bc53230
+#: ../../source/Chapter8.rst:182
+msgid "Figure 8-7. Flowchart for the Calculation of Monthly Billing Demand"
+msgstr ""
+
+# a9a7d49f30cd471ea75cfc069fb555bb
+#: ../../source/Chapter8.rst:190
+msgid ""
+"Figure 8-8. Demand Penalties Under Different Current Month Demand Values "
+"When On-Peak Demand Has Been Set at Different Levels"
+msgstr ""
+
+# bcdac4e7bda74b3e88b1f5455981ed00
+#: ../../source/Chapter8.rst:192
+#, python-format
+msgid ""
+"Both on-peak and off-peak demand controls are important in minimizing the"
+" demand penalty. When the off-peak demand is less than the annual on-peak"
+" demand, the demand penalty varies from zero to the difference between "
+"on-peak demand and 1,400 kW as the off-peak demand increases to the on-"
+"peak value. When the off-peak demand is higher than the annual on-peak "
+"demand, the demand penalty is the difference between the on-peak demand "
+"and 1,400 kW plus 25% of the off-peak demand increase. For example, if "
+"the off-peak demand decreases from 1,700 kW to 1,400 kW when the annual "
+"on-peak demand is 1,700 kW, the demand charge will decrease by 300 kW to "
+"1,400 kW. If the annual on-peak demand is 1,400 kW, the demand charge "
+"will decrease by 75 kW from 1,475 kW. The demand penalty increases by 75%"
+" of the annual on-peak demand increase when the annual on-peak demand is "
+"higher than the current off-peak demand."
+msgstr ""
+
+# bd0d3de70eb1481697545d36f3fdd44d
+#: ../../source/Chapter8.rst:195
+msgid ""
+"Figure 8-9 presents a typical storage tank inventory profile, base "
+"building electrical load profile (without chillers) and facility "
+"electrical load profile during on-peak months. The daily facility "
+"electrical load includes the base building electrical power and chiller "
+"power. The graphs show a general trend of increased demand from 4:00 a.m."
+" to 2:00 p.m. The base load is 800 kW higher at 2:00 p.m. than at 4:00 "
+"a.m. Also note that the demand drops below 1,200 kW after 5:00 p.m. when "
+"most staff start to leave the hospital. The base load electrical demand "
+"for this hospital is less than 1,400 kW throughout the year, making it "
+"possible to set 1,400 kW as the target during off-peak periods."
+msgstr ""
+
+# 822474f366794908b40dfb4eb6a639ec
+#: ../../source/Chapter8.rst:197
+msgid ""
+"The chart shows that peak demand is controlled below 1,400 kW. The "
+"electrical power is maintained below 2,000 kW until 6:00 am. The off-peak"
+" demand is 2,356 kW directly before the on-peak hours."
+msgstr ""
+
+# 980067d3d2de4a48b2a95d629a6bcaaf
+#: ../../source/Chapter8.rst:203
+msgid ""
+"Figure 8-9. Typical On-Peak Months Whole Facility Demand, Base Electrical"
+" Demand and Storage Tank Inventory Profiles"
+msgstr ""
+
+# 4329954676f9488b8a7899156daef27c
+#: ../../source/Chapter8.rst:206
+msgid ""
+"The inventory continuously increases after 9:00 a.m. until noon. "
+"Obviously, the chiller is charging the tank until noon. If the tank can "
+"be fully charged before 9:00 a.m., the off-peak demand can be decreased "
+"from 2,350 kW to 2,200 kW. The demand charge will be decreased from 1,650"
+" kW to 1,600 kW with 50 kW demand savings. If the discharging mode could "
+"start as early as 7:00 a.m., the off-peak demand can be limited to 2,000 "
+"kW. The monthly demand charge can be further decreased from 1,600 kW to "
+"1,550 kW. It appears that the off-peak demand reduction can potentially "
+"decrease the demand charge by 100 kW during the summer months."
+msgstr ""
+
+# 85063c66a6b149ada7a48a5cdd1421ff
+#: ../../source/Chapter8.rst:208
+#, python-format
+msgid ""
+"During winter months, the cooling energy consumption is very low. Most of"
+" these buildings were built before 1950. Each room has exterior walls and"
+" windows. If the chillers are kept off, the off-peak demand will be below"
+" 1,400 kW. Then, 600 kW off-peak demand reduction can be achieved during "
+"the winter months since the current control sequence often runs chillers "
+"during the daytime. The potential demand charge reduction will be 200 kW "
+"for winter months. The demand charge savings varies between 100 kW and "
+"200 kW from summer months to winter months. This is 14% to 28% of design "
+"peak load reduction for the thermal storage system."
+msgstr ""
+
+# 866c6438ba964d9fa74c235bfcd00485
+#: ../../source/Chapter8.rst:210
+#, python-format
+msgid ""
+"The peak demand can be controlled at 1,400 kW if the chillers are kept "
+"off during the on-peak hours. However, the chillers had to be turned on "
+"before the project, which created a peak demand of 1,731 kW. Keeping "
+"stable operation means another 250 kW demand charge reduction. It appears"
+" that optimizing on-peak and off-peak demand control can decrease the "
+"monthly demand charge by 350 kW to 450 kW, which is 50% to 64% of the "
+"initial design demand reduction expected from the thermal storage system."
+msgstr ""
+
+# 74233b6702e2476e956c542a46c847f6
+#: ../../source/Chapter8.rst:212
+msgid ""
+"Comprehensive building commissioning was conducted prior to developing "
+"the optimal control sequences. During the building commissioning, the AHU"
+" operation was optimized. This included static pressure reset, supply air"
+" temperature reset, outside air adjustment and other measures. The "
+"building chilled water loop was optimized using a loop differential "
+"pressure reset. A loop water balance was also conducted in a number of "
+"buildings."
+msgstr ""
+
+# 733796f457b447c99068c135f9ac96b4
+#: ../../source/Chapter8.rst:214
+msgid ""
+"The optimized control sequences are discussed separately for on-peak "
+"months and off-peak months. A number of factors are incorporated into the"
+" sequence to increase the savings and simplify the operation."
+msgstr ""
+
+# 98f835fcf0324d1388053a13a0d39ed2
+#: ../../source/Chapter8.rst:216
+msgid "On-Peak Months Optimal Control Sequences:"
+msgstr ""
+
+# dcf1e0d54498473b9007c8186352399a
+#: ../../source/Chapter8.rst:218
+msgid "Turn off one 450-ton chiller at 8:00 a.m."
+msgstr ""
+
+# 1a30a6cab55649d1a4c43a70e93ee033
+#: ../../source/Chapter8.rst:219
+msgid "Start discharge mode at 9:00 a.m. or later if necessary"
+msgstr ""
+
+# aed0057963dd46029cd0b167579898e9
+#: ../../source/Chapter8.rst:220
+msgid ""
+"Start the 200-ton chiller at 5:00 p.m. if the inventory is inadequate and"
+" the facility load is below 1,200 kW"
+msgstr ""
+
+# 1ed4c6a7ebfc4a6ab383f40cf2e38dd4
+#: ../../source/Chapter8.rst:223
+msgid ""
+"These sequences are easy to understand and easy to implement. Figure 8-10"
+" compares the measured facility electrical load profiles before and after"
+" implementation of the optimized control sequences. The improved control "
+"sequences limited the off-peak demand to 2,000 kW by turning off the "
+"450-ton chiller after 8:00 am. Figure 8-10 also shows that commissioning "
+"also decreased the facility electrical load significantly."
+msgstr ""
+
+# 19a97daa4a6244a58a5e283a94fec981
+#: ../../source/Chapter8.rst:229
+msgid ""
+"Figure 8-10. Comparison of Typical Facility Electrical Demand Profile "
+"Before and After Implementation of Optimal Control Sequences"
+msgstr ""
+
+# 15eb8ac518aa4ecbbcea7d9a1e8cc31a
+#: ../../source/Chapter8.rst:232
+msgid "Optimal Control Sequences for Off-Peak Months"
+msgstr ""
+
+# b508d296ca3343708204fb1cb3445b6a
+#: ../../source/Chapter8.rst:234
+msgid ""
+"Load projection is critical for the off-peak months optimal control "
+"sequence. Cooling load models were developed using measured data as:"
+msgstr ""
+
+# dfb89fcf1b91459d8dd4dc083ee8a664
+#: ../../source/Chapter8.rst:236
+msgid ""
+"\\begin{align} E_{c,0} = 9.83 T_{oa} - 466.37 \\\\ E_{c,u} = 7.54 T_{oa} "
+"- 467.50 \\end{align}"
+msgstr ""
+
+# 3b7fff95fc824c859eba887d292d339e
+#: ../../source/Chapter8.rst:243
+msgid ""
+"The hourly temperature is projected for each day using standard daily "
+"profiles combined with forecasted high and low temperatures of the next "
+"day. Whole campus cooling load is predicted 24 hours ahead of time to "
+"determine the cooling tonnage to be charged. Hourly cooling load up to 5 "
+"p.m. of the next day is calculated and totaled every hour after 5 p.m. It"
+" is then compared with the cooling capacity remaining in the storage "
+"tank."
+msgstr ""
+
+# 89dbe5dad72744538c0984b99c7b6f9b
+#: ../../source/Chapter8.rst:245
+msgid ""
+"At 5:00 p.m., the high and low temperature forecasts for the next day are"
+" manually entered into the control system. Then the chiller status is "
+"determined using the following rule: if the forecast daily cooling is "
+"1,000 ton-hours less than the tank inventory, no chiller will be turned "
+"on. Otherwise turn on the chiller and charge the tank until the inventory"
+" is 1,500 ton-hours higher than the forecasted cooling load. If the "
+"chillers are to be operated, the electrical demand is monitored to make "
+"sure that it does not surpass 1,400 kW. If demand drops below 1,000 kW "
+"while the 200-ton chiller is in operation and the tank capacity is more "
+"than 1,000 ton-hours short, turn on the 425-ton chiller to serve the "
+"buildings and charge the tank. If the demand approaches 1,400 kW, turn "
+"off the smaller chiller."
+msgstr ""
+
+# 179f80b84532412ebe840040f4a12422
+#: ../../source/Chapter8.rst:248
+msgid ""
+"The optimal control sequences were implemented in two phases. The first "
+"phase, implemented in 1998, focused on controlling the on-peak demand "
+"below 1,400 kW. The second phase, implemented in 1999, concentrated on "
+"managing the off-peak demand."
+msgstr ""
+
+# 765e811910fa4359a7bb3160b48ba5a0
+#: ../../source/Chapter8.rst:254
+msgid ""
+"Figure 8-11. Comparison of Billed Electrical Demand Before and After "
+"Commissioning"
+msgstr ""
+
+# 4f317ddeabbc44b7b154f99c654bb0cf
+#: ../../source/Chapter8.rst:257
+#, python-format
+msgid ""
+"Figure 8-11 compares the demand charges for the base year (1997-1998), "
+"after the first phase (1998-1999) and after the second phase (1999-2000)."
+" In the base year, the on-peak demand was 1,731 kW and the off-peak "
+"demand was 2,736 kW. After the first phase, the on-peak demand was "
+"supposed to decrease to 1,400 kW. However, unexpected system failures "
+"resulted in an on-peak demand of 1,559 kW. Still, the annual demand "
+"charge reduction was 2,215 kW, or 10.0% of the base year demand charge. "
+"After the second phase, the on-peak demand was decreased to 1,332 kW. The"
+" off-peak demand was controlled between 1,879 kW and 2,207 kW during on-"
+"peak months and between 1,318 kW and 1,746 kW during off-peak months. The"
+" annual demand charge decreased from 22,158 kW/yr to 18,075 kW/yr for an "
+"18.4% reduction. If the facility were to reduce its contract demand from "
+"2,800 kW to 2,500 kW, it would result in 612 kW of additional demand "
+"charge savings. The total potential demand charge savings are 6,910 kW, "
+"or 28% of the base year demand charge. More information regarding this "
+"case study can be found in “Practical Optimization of Full Thermal "
+"Storage Systems Operation” [ Wei et al. 2002]."
+msgstr ""
+
+# 9787ad3921e74e9a968a89bafcb30f5f
+#: ../../source/Chapter8.rst:260
+msgid "8.4 Set Up an Alarm System"
+msgstr ""
+
+# 0d84a0bb22094e0399efddc0c8f65a98
+#: ../../source/Chapter8.rst:261
+msgid ""
+"An alarm system should be in place that will immediately alert the "
+"operator if a chiller is accidentally turned off. This will enable the "
+"operator to take any actions needed to get the chiller back on line so "
+"the tank will be fully charged during the charging period."
+msgstr ""
+
+# 55a42b5eb46a404fb8ad350a181b5cf0
+#: ../../source/Chapter8.rst:263
+msgid "**References**"
+msgstr ""
+
+# f9643ce34b084775aabe6345b8a3e169
+#: ../../source/Chapter8.rst:265
+msgid ""
+"Liu, M., B. Veteto and D. E. Claridge, 1999. “Rehabilitating A Thermal "
+"Storage System Through Commissioning.” ASHRAE Transactions, Vol. 105, "
+"Part II, pp. 1134-1139. Wei, G., M. Liu, Y. Sakurai, D.E. Claridge and "
+"W.D. Turner, 2002, “Practical Optimization of Full Thermal Storage "
+"Systems Operation.” ASHRAE Transactions-Research, Vol. 108, Part II, pp. "
+"360-368."
+msgstr ""
+
